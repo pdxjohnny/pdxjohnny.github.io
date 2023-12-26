@@ -9,7 +9,7 @@
   </author>
   <icon>https://pdxjohnny.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://pdxjohnny.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2023-12-14T01:17:52Z</updated>
+  <updated>2023-12-26T17:15:18Z</updated>
   <link rel="self" type="application/atom+xml" href="https://pdxjohnny.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://pdxjohnny.github.io/" hreflang="en-us"/>
   <entry>
@@ -4458,6 +4458,10 @@ $ docker rmi $(docker images | grep \&lt;none\&gt; | awk '{print $3}')
 <pre><code class="language-console" data-lang="console">$ python -m pip install snoop
 $ sed -e 's/import os/import snoop\n&amp;/g' -e 's/def main/@snoop\n&amp;/g' ~/dffml/.github/actions/create_manifest_instance_build_images_containers/images_containers_manifest.py
 </code></pre><h2 id="remap-fields-with-jq">Remap fields with jq</h2>
+<ul>
+<li><a href="https://github.com/fadado/JBOL/blob/master/doc/JQ-Distilled.md">https://github.com/fadado/JBOL/blob/master/doc/JQ-Distilled.md</a></li>
+<li><a href="https://github.com/fadado/JBOL">https://github.com/fadado/JBOL</a></li>
+</ul>
 <pre><code class="language-console" data-lang="console">$ echo '{&quot;mykey&quot;: {&quot;a&quot;: 42}}' | jq 'to_entries[] | {(.key): {&quot;alice&quot;: (.value.&quot;a&quot;)}}' | jq -s 'add'
 {
   &quot;mykey&quot;: {
