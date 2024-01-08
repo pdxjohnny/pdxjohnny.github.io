@@ -9,7 +9,7 @@
   </author>
   <icon>https://pdxjohnny.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://pdxjohnny.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2023-12-27T19:21:34Z</updated>
+  <updated>2024-01-08T21:07:15Z</updated>
   <link rel="self" type="application/atom+xml" href="https://pdxjohnny.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://pdxjohnny.github.io/" hreflang="en-us"/>
   <entry>
@@ -4443,6 +4443,8 @@ GatewayPorts yes
 </code></pre><h2 id="json-to-yaml-with-python-cli">JSON to YAML with Python CLI</h2>
 <p>Source: <a href="https://github.com/intel/dffml/blob/8847989eb4cc9f6aa484285ba9c11ff920113ed3/docs/arch/0008-Manifest.md">https://github.com/intel/dffml/blob/8847989eb4cc9f6aa484285ba9c11ff920113ed3/docs/arch/0008-Manifest.md</a></p>
 <pre><code class="language-console" data-lang="console">$ python -c &quot;import sys, pathlib, json, yaml; print(yaml.dump(json.load(sys.stdin)))&quot; &lt; manifest.json
+</code></pre><h2 id="yaml-to-json-with-python-cli">YAML to JSON with Python CLI</h2>
+<pre><code class="language-console" data-lang="console">$ python -c &quot;import sys, pathlib, json, yaml; print(json.dumps(yaml.safe_load(sys.stdin.read())))&quot; &lt; manifest.json
 </code></pre><h2 id="post-wip-diff-to-pull-request">Post WIP diff to Pull Request</h2>
 <pre><code class="language-console" data-lang="console">$ (echo '```diff' &amp;&amp; git diff &amp;&amp; echo '```') | gh pr comment -F -
 </code></pre><h2 id="mirror-site-with-wget">Mirror site with wget</h2>
