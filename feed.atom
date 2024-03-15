@@ -9,7 +9,7 @@
   </author>
   <icon>https://pdxjohnny.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://pdxjohnny.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2024-01-28T04:47:26Z</updated>
+  <updated>2024-03-15T15:18:47Z</updated>
   <link rel="self" type="application/atom+xml" href="https://pdxjohnny.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://pdxjohnny.github.io/" hreflang="en-us"/>
   <entry>
@@ -4470,6 +4470,8 @@ $ sed -e 's/import os/import snoop\n&amp;/g' -e 's/def main/@snoop\n&amp;/g' ~/d
     &quot;alice&quot;: 42
   }
 }
+</code></pre><h3 id="blocklist-with-jq">Blocklist with jq</h3>
+<pre><code class="language-console" data-lang="console">$ cat inputs.txt | jq --argjson blocklist &quot;$(cat blocklist.txt | jq -cnR '[inputs | select(length&gt;0) | sub(&quot;\\*.*&quot;;&quot;&quot;) | sub(&quot;@.*&quot;;&quot;&quot;)]')&quot; -nR '[inputs | select( . as $in | $blocklist | index($in) | not)]'
 </code></pre><h2 id="ssh-through-socks-proxy-with-netcat">SSH through socks proxy with netcat</h2>
 <ul>
 <li><a href="https://superuser.com/questions/454210/how-can-i-use-ssh-with-a-socks-5-proxy">https://superuser.com/questions/454210/how-can-i-use-ssh-with-a-socks-5-proxy</a></li>
