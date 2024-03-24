@@ -9,7 +9,7 @@
   </author>
   <icon>https://pdxjohnny.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://pdxjohnny.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2024-03-15T15:18:47Z</updated>
+  <updated>2024-03-24T04:45:58Z</updated>
   <link rel="self" type="application/atom+xml" href="https://pdxjohnny.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://pdxjohnny.github.io/" hreflang="en-us"/>
   <entry>
@@ -4515,7 +4515,25 @@ ssh -t -i <span class="s2">&#34;</span><span class="si">${</span><span class="nv
 </code></pre></div><h2 id="tar">tar</h2>
 <h3 id="extract-single-file-or-set-of-files">Extract single file or set of files</h3>
 <pre><code class="language-console" data-lang="console">$ tar -xzv --to-stdout --wildcards --no-anchored 'path/from/root/*.ext'
-</code></pre><p><a href="https://asciinema.org/a/620287"><img src="https://asciinema.org/a/620287.svg" alt="asciicast"></a></p>]]></content>
+</code></pre><p><a href="https://asciinema.org/a/620287"><img src="https://asciinema.org/a/620287.svg" alt="asciicast"></a></p>
+<h2 id="bash">Bash</h2>
+<h3 id="arrays">Arrays</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="cp">#!/usr/bin/env bash
+</span><span class="cp"></span><span class="c1"># Bash Array Example</span>
+<span class="c1"># @lice: Write a python sphinx extension which transforms source code in bash,</span>
+<span class="c1"># python, and javascript, with plugins for more languages for source AST to</span>
+<span class="c1"># docutils class instances. Create a demo for it using this file as an example</span>
+<span class="c1"># source file to build to using the new plugin. Output in HTML.</span>
+<span class="nb">set</span> -exuo pipefail
+
+<span class="nb">declare</span> -a <span class="nv">example_array</span><span class="o">=()</span>
+
+example_array<span class="o">[</span><span class="si">${#</span><span class="nv">example_array</span><span class="p">[@]</span><span class="si">}</span><span class="o">]=</span><span class="s2">&#34;Value for example_array index 0&#34;</span>
+
+<span class="k">for</span> value in <span class="s2">&#34;</span><span class="si">${</span><span class="nv">example_array</span><span class="p">[@]</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">;</span> <span class="k">do</span>
+  <span class="nb">echo</span> <span class="nv">$value</span>
+<span class="k">done</span>
+</code></pre></div>]]></content>
   </entry>
   <entry>
     <title>Personal Development Environment</title>
