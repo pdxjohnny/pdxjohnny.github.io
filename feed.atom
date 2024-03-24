@@ -9,7 +9,7 @@
   </author>
   <icon>https://pdxjohnny.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://pdxjohnny.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2024-03-24T04:45:58Z</updated>
+  <updated>2024-03-24T06:00:30Z</updated>
   <link rel="self" type="application/atom+xml" href="https://pdxjohnny.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://pdxjohnny.github.io/" hreflang="en-us"/>
   <entry>
@@ -4478,7 +4478,7 @@ $ sed -e 's/import os/import snoop\n&amp;/g' -e 's/def main/@snoop\n&amp;/g' ~/d
 </ul>
 <pre><code class="language-console" data-lang="console">$ ssh -R 80:localhost:8080 -o ProxyCommand=&quot;nc -X 5 -x 127.0.0.1:6000 %h %p&quot; nokey@localhost.run
 </code></pre><pre><code class="language-console" data-lang="console">$ ssh -nT -R 80:localhost:8080 nokey@localhost.run 2&gt;/dev/null | grep --line-buffered 'tunneled with tls' | python -c 'import sys; print(sys.stdin.readline().split()[-1])' | tee public-url.txt &amp;
-</code></pre><h2 id="powershell-to-python">PowerShell to Python</h2>
+</code></pre><h2 id="curl-and-powershell-to-python">Curl and PowerShell to Python</h2>
 <div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">sys</span><span class="o">,</span> <span class="nn">http.server</span>
 
 <span class="n">http</span><span class="o">.</span><span class="n">server</span><span class="o">.</span><span class="n">BaseHTTPRequestHandler</span><span class="o">.</span><span class="n">do_POST</span> <span class="o">=</span> <span class="k">lambda</span> <span class="bp">self</span><span class="p">:</span> <span class="nb">list</span><span class="p">(</span>
@@ -4496,7 +4496,8 @@ $ sed -e 's/import os/import snoop\n&amp;/g' -e 's/def main/@snoop\n&amp;/g' ~/d
     <span class="p">(</span><span class="s2">&#34;0.0.0.0&#34;</span><span class="p">,</span> <span class="mi">8080</span><span class="p">),</span> <span class="n">http</span><span class="o">.</span><span class="n">server</span><span class="o">.</span><span class="n">BaseHTTPRequestHandler</span>
 <span class="p">)</span><span class="o">.</span><span class="n">serve_forever</span><span class="p">()</span>
 </code></pre></div><pre><code class="language-console" data-lang="console">$ python -uc 'import sys, http.server; http.server.BaseHTTPRequestHandler.do_POST = (lambda self: list([self.send_response(200), self.send_header(&quot;Content-type&quot;, &quot;text/plain&quot;), self.send_header(&quot;Content-length&quot;, 3), self.end_headers(), self.wfile.write(b&quot;OK\n&quot;), sys.stdout.buffer.write(self.rfile.read()), sys.exit(0)])); http.server.HTTPServer((&quot;0.0.0.0&quot;, 8080), http.server.BaseHTTPRequestHandler).serve_forever()' | python -um json.tool | tee data.json
-</code></pre><div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="nv">$body</span> <span class="p">=</span> <span class="nb">Get-Content</span> <span class="n">-Path</span> <span class="n">data</span><span class="p">.</span><span class="n">json</span> <span class="n">-Encoding</span> <span class="n">UTF8</span> <span class="n">-Raw</span>
+</code></pre><div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">curl -X POST -d @file.ext http://localhost:8080/
+</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="nv">$body</span> <span class="p">=</span> <span class="nb">Get-Content</span> <span class="n">-Path</span> <span class="n">data</span><span class="p">.</span><span class="n">json</span> <span class="n">-Encoding</span> <span class="n">UTF8</span> <span class="n">-Raw</span>
 <span class="nb">Invoke-WebRequest</span> <span class="n">-Uri</span> <span class="n">http</span><span class="err">:</span><span class="p">//</span><span class="n">localhost</span><span class="err">:</span><span class="n">8080</span><span class="p">/</span> <span class="n">-Method</span> <span class="n">POST</span> <span class="n">-Body</span> <span class="nv">$body</span>
 </code></pre></div><h2 id="digital-ocean">Digital Ocean</h2>
 <p>I ❤️ DigitalOcean 🐳</p>
