@@ -9,7 +9,7 @@
   </author>
   <icon>https://pdxjohnny.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://pdxjohnny.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2024-08-22T19:59:00Z</updated>
+  <updated>2024-08-29T13:34:37Z</updated>
   <link rel="self" type="application/atom+xml" href="https://pdxjohnny.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://pdxjohnny.github.io/" hreflang="en-us"/>
   <entry>
@@ -4503,6 +4503,7 @@ $ sed -e 's/import os/import snoop\n&amp;/g' -e 's/def main/@snoop\n&amp;/g' ~/d
 <p>I ❤️ DigitalOcean 🐳</p>
 <ul>
 <li><a href="https://github.com/tmux/tmux/wiki/Advanced-Use#piping-pane-changes">https://github.com/tmux/tmux/wiki/Advanced-Use#piping-pane-changes</a></li>
+<li><a href="https://dokku.com/docs/getting-started/install/digitalocean/">https://dokku.com/docs/getting-started/install/digitalocean/</a></li>
 </ul>
 <h3 id="create-a-docker-droplet">Create a Docker Droplet</h3>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">export</span> <span class="nv">COMPUTE_DOMAIN</span><span class="o">=</span>chadig.com <span class="o">&amp;&amp;</span> <span class="nb">export</span> <span class="nv">COMPUTE_SUBDOMAIN</span><span class="o">=</span>scitt.eve <span class="nb">export</span> <span class="nv">COMPUTE_NAME</span><span class="o">=</span>scitt-eve
