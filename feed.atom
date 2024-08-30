@@ -9,7 +9,7 @@
   </author>
   <icon>https://pdxjohnny.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://pdxjohnny.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2024-08-29T13:34:37Z</updated>
+  <updated>2024-08-30T03:47:21Z</updated>
   <link rel="self" type="application/atom+xml" href="https://pdxjohnny.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://pdxjohnny.github.io/" hreflang="en-us"/>
   <entry>
@@ -2574,6 +2574,11 @@ using the system, because not all programs use utmp logging.</p>
     <content type="html"><![CDATA[<blockquote>
 <p>This post is in progress</p>
 </blockquote>
+<h2 id="debugging">Debugging</h2>
+<ul>
+<li><a href="https://github.com/prompt-toolkit/ptpython">https://github.com/prompt-toolkit/ptpython</a></li>
+<li><a href="https://rpyc.readthedocs.io/en/latest/">https://rpyc.readthedocs.io/en/latest/</a></li>
+</ul>
 <h2 id="development-environment">Development Environment</h2>
 <p>First, update pip! <code>pip</code> is the way you'll install Python libraries and
 programs that already exist. You'll likely need to install some existing things
