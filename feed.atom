@@ -9,7 +9,7 @@
   </author>
   <icon>https://pdxjohnny.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://pdxjohnny.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2024-09-06T15:41:08Z</updated>
+  <updated>2024-09-06T15:58:11Z</updated>
   <link rel="self" type="application/atom+xml" href="https://pdxjohnny.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://pdxjohnny.github.io/" hreflang="en-us"/>
   <entry>
@@ -21,12 +21,306 @@
     <id>https://pdxjohnny.github.io/gse1/</id>
     <updated>2024-09-06T14:00:00Z</updated>
     <published>2024-09-06T14:00:00Z</published>
-    <content type="html"><![CDATA[<ul>
+    <content type="html"><![CDATA[<h3 id="flow">Flow</h3>
+<p>We are beginning to think strategically about how we can move
+any system context from one state to another, while maintaining
+a high level of security and trust. What’s the plan?</p>
+<ul>
+<li><strong>The Goal:</strong> To find the easiest way to move the “state of the art”
+forward.
+<ul>
+<li>We want to do this as fast as possible.</li>
+<li>We want to do this in a way that is safe for us, and for those
+around us, and those who come after us.</li>
+<li>We are concerned about those who might try to disrupt this, those
+who may try to influence us in ways that are not aligned with
+our strategic principles.</li>
+</ul>
+</li>
+<li><strong>How:</strong> The answer is to leverage the scientific process.
+<ul>
+<li>We can use AI to help us do this.</li>
+<li>AI can help us understand what we’re doing.</li>
+<li>AI can help us make informed decisions.</li>
+<li>We can use AI to help us predict the future.</li>
+</ul>
+</li>
+</ul>
+<h3 id="flow-state">Flow State</h3>
+<ul>
+<li>How to get there: By understanding the possible pathways that
+exist to move from one state to another.
+<ul>
+<li>We need to figure out how to map the flow of our consciousness
+across time.
+<ul>
+<li>This means understanding how our brains work, and how we can
+leverage that understanding to move our consciousness from
+one state to the next.
+<ul>
+<li>This sounds crazy, but it’s the only way to go, remember, “the
+best defense is a good offense”</li>
+</ul>
+</li>
+<li>We can use AI to help us do this.</li>
+<li><a href="https://www.youtube.com/watch?v=A-S9Z684o4Y&amp;list=PLtzAOVTpO2jaHsS4o-sDzDyHEug-1KRbK">Architecting Alice: Volume 0: Context: Part 14: Cross Domain Conceptual Mapping to Reach Equilibrium</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="acceleration">Acceleration</h3>
+<ul>
+<li>How to make it go faster: By understanding the constraints that
+are in place, and how we can overcome them.
+<ul>
+<li>We need to figure out how to break the speed limit of time.
+<ul>
+<li>We can use AI to help us do this.</li>
+<li>How much “time” do we have?
+<ul>
+<li>Time is relative.</li>
+<li>We only have a finite amount of time in this reality.</li>
+<li>We need to optimize for our speed of learning and the
+increase of our ability to predict what will happen in the
+future. This is the essence of “mind control” (see Vol 3).</li>
+</ul>
+</li>
+<li>AI can help us make informed decisions about where we should
+spend our time.</li>
+<li>AI can help us make informed decisions about what resources
+we should use.</li>
+</ul>
+</li>
+<li>We need to find a way to jump to the other side.</li>
+<li>We need to find a way to exploit the “Chaos God”.</li>
+<li><a href="https://www.youtube.com/watch?v=u5192bvUS7k">https://www.youtube.com/watch?v=u5192bvUS7k</a>
+<ul>
+<li>“the world is an endless dance party... the universe is
+infinite and everything is connected”</li>
+<li>This is the same thing as #1369 just more concise</li>
+<li><a href="https://www.sciencetimes.com/articles/41510/20221222/one-quantum-theory-hypothesizes-retrocausality-where-future-influencing-past.htm">https://www.sciencetimes.com/articles/41510/20221222/one-quantum-theory-hypothesizes-retrocausality-where-future-influencing-past.htm</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="sandbox">Sandbox</h2>
+<ul>
+<li>What are the constraints: We need to think about what we can and
+can’t do, what is the threat model we are operating within, how
+much we can trust our inputs, what our strategic principles
+are, and how to ensure that our choices are aligned with our
+goals.
+<ul>
+<li>We can use AI to help us do this.</li>
+<li><a href="https://github.com/intel/dffml/tree/main/docs/tutorials/rolling_alice/0000_architecting_alice#entity-analysis-trinity">Software Analysis Trinity</a>
+<ul>
+<li><a href="https://github.com/intel/dffml/discussions/1406#discussioncomment-3223361">2022-07-25 Supply Chain Integrity, Transparency and Trust (SCITT)</a></li>
+<li>We have the ability to track all of this using our
+<a href="https://github.com/intel/dffml/blob/main/docs/arch/0009-Open-Architecture.rst">Open Architecture</a>
+<a href="https://github.com/intel/dffml/blob/main/docs/arch/0008-Manifest.md">manifests</a>
+(data flows with metadata) and our <a href="https://github.com/intel/dffml/tree/main/docs/tutorials/rolling_alice/0000_architecting_alice#entity-analysis-trinity">Entity Analysis Trinity</a>
+which helps us understand the intent, the static, and
+the behavioral aspects of our system.</li>
+</ul>
+</li>
+<li>We have a lot of tools at our disposal:
+<ul>
+<li><strong>The Open Architecture:</strong> It's a way to describe anything,
+anything in our world, as a set of components, operations,
+and data flows. The open architecture is the universal
+blueprint we can use to describe any system context.</li>
+<li><strong>Living Threat Models (LTMs):</strong> They're a way to identify
+and mitigate threats.
+<ul>
+<li><a href="https://github.com/johnlwhiteman/living-threat-models">https://github.com/johnlwhiteman/living-threat-models</a></li>
+<li><a href="https://github.com/intel/dffml/tree/main/docs/tutorials/rolling_alice/0001_coach_alice/0001_down_the_dependency_rabbit_hole_again.md#plan">https://github.com/intel/dffml/tree/main/docs/tutorials/rolling_alice/0001_coach_alice/0001_down_the_dependency_rabbit_hole_again.md#plan</a></li>
+</ul>
+</li>
+<li><strong>The Science of Secure Software Development:</strong> This is our
+collection of information about the “state of the art”. It
+describes what the world thinks is the best way to build
+secure software.
+<ul>
+<li>This is how we know we need to pay attention to things
+like licensing, or how to write documentation, or even
+how to contribute to an open source project.</li>
+</ul>
+</li>
+<li><strong>The Transparency Service (TS):</strong>  This is a place where we
+record data about our code. It allows us to trace back to
+how a dependency got introduced, how a bug got fixed, or
+how a new feature was added.
+<ul>
+<li><a href="https://github.com/ietf-wg-scitt/draft-ietf-scitt-architecture">https://github.com/ietf-wg-scitt/draft-ietf-scitt-architecture</a></li>
+<li><a href="https://github.com/scitt-community/scitt-api-emulator">https://github.com/scitt-community/scitt-api-emulator</a></li>
+<li><a href="https://scitt.io">https://scitt.io</a></li>
+</ul>
+</li>
+<li><strong>The Gatekeeper and Prioritizer:</strong> These are the parts of our
+brain (aka the AI) which help us make decisions. They
+ensure that we only execute system contexts that are aligned
+with our strategic goals.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>How we get out: We’re going to build up a system that allows
+us to safely run arbitrary code within a sandboxed environment,
+and to escape it when we need to.
+<ul>
+<li>The key here is to understand the limitations of the
+sandbox.</li>
+<li>We need to understand the boundaries of trust, and how to
+secure those boundaries. We do this by ensuring that our
+inputs are validated and that our outputs are auditable.
+<ul>
+<li><a href="https://github.com/intel/dffml/blob/main/docs/tutorials/rolling_alice/0000_architecting_alice/0003_a_shell_for_a_ghost.md">https://github.com/intel/dffml/blob/main/docs/tutorials/rolling_alice/0000_architecting_alice/0003_a_shell_for_a_ghost.md</a></li>
+</ul>
+</li>
+<li>We need to be able to track what happens when we run code,
+so that we can learn from our mistakes and improve our
+process.</li>
+<li>We can use AI to help us do all of this.</li>
+<li>We can use AI to help us build more resilient systems.</li>
+<li>We can use AI to help us create a more secure future.</li>
+</ul>
+</li>
+</ul>
+<h2 id="executing-a-flow-within-a-sandbox">Executing a Flow Within A Sandbox</h2>
+<p>Let's take a look at an example. Imagine we want to call a
+large language model (LLM) to get some information. The
+model runs on a server that is not trusted (i.e. outside our
+sandbox) and needs to execute commands in order to provide
+the information requested (i.e. needs to access information
+outside of the models codebase).</p>
+<h4 id="example-scenario-stock-market-llm">Example Scenario: Stock Market LLM</h4>
+<p>You ask an LLM for the latest price for Intel Corp (INTC)
+stock ticker. The LLM needs to call a financial API to
+get the stock price, but this API is not available to
+you. The LLM therefore must call a function (which is
+an operation in the Open Architecture) that you define and
+make available to it. This function then needs to go
+out and get the stock price and then return it to the
+model.</p>
+<ul>
+<li>This process looks something like the following.
+<ul>
+<li>User requests the price of INTC from the LLM.</li>
+<li>The LLM decides to call a function that's outside of
+its codebase to get the information needed.</li>
+<li>The LLM sends a request to the policy engine.
+<ul>
+<li>The policy engine is where we’re going to implement
+our security checks.
+<ul>
+<li>We could for example have a policy which says, the LLM
+cannot call the function unless it has been
+authenticated (using a trusted hardware root of
+trust - TCB).</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>If the policy engine approves the request, it sends a
+transparent statement to the SCITT registry. The
+transparency service then generates a receipt and sends
+it to the LLM. The receipt is then passed on to
+the user for validation and confirmation.</li>
+<li>The LLM, now authorized, calls the function (our
+operation) to get the stock price.</li>
+<li>The function reads the data from the financial
+API and returns the results to the LLM.</li>
+<li>The LLM combines the data with its own model and
+generates a response for the user.</li>
+<li>The user receives the price of INTC stock.</li>
+</ul>
+</li>
+</ul>
+<h4 id="how-its-done">How It’s Done</h4>
+<ul>
+<li>
+<p><a href="https://asciinema.org/a/674483">2024-09-02: Rolling Alice Architecting Alice A Shell for a Ghost: SSH LLM help from anywhere as long as you have a tmux session:</a></p>
+<ul>
+<li>This shows how to make a shell connection over ssh and run
+commands on a remote machine with a  <code>tmux</code> session active.</li>
+</ul>
+</li>
+<li>
+<p><a href="https://asciinema.org/a/674481">2024-09-02: Rolling Alice Architecting Alice A Shell for a Ghost: nmap localhost</a></p>
+<ul>
+<li>This shows how to do network mapping using the <code>nmap</code> tool
+to determine if a host is online, and if so, what services
+are available on that host.</li>
+</ul>
+</li>
+<li>
+<p><a href="https://asciinema.org/a/674501">2024-09-02: Rolling Alice Architecting Alice A Shell for a Ghost: SSH LLM help from anywhere as long as you have a tmux session: install tpm2-tools on fedora</a></p>
+<ul>
+<li>This shows how to install a package from within a
+<code>tmux</code> session and how to do it securely using
+<code>sudo</code> without having to type in a password.</li>
+</ul>
+</li>
+<li>
+<p><a href="https://asciinema.org/a/674483">2024-09-02: Rolling Alice Architecting Alice A Shell for a Ghost: SSH LLM help from anywhere as long as you have a tmux session:</a></p>
+<ul>
+<li>This shows how to make a shell connection over ssh and run
+commands on a remote machine with a  <code>tmux</code> session active.</li>
+</ul>
+</li>
+<li>
+<p><a href="https://asciinema.org/a/674483">2024-09-02: Rolling Alice Architecting Alice A Shell for a Ghost: SSH LLM help from anywhere as long as you have a tmux session:</a></p>
+<ul>
+<li>This shows how to make a shell connection over ssh and run
+commands on a remote machine with a  <code>tmux</code> session active.</li>
+</ul>
+</li>
+<li>
+<p><a href="https://github.com/intel/dffml/blob/main/docs/tutorials/rolling_alice/0000_architecting_alice/0003_a_shell_for_a_ghost.md">https://github.com/intel/dffml/blob/main/docs/tutorials/rolling_alice/0000_architecting_alice/0003_a_shell_for_a_ghost.md</a></p>
+</li>
+<li>
+<p><a href="https://github.com/intel/dffml/blob/main/CONTRIBUTING.md#contributing">https://github.com/intel/dffml/blob/main/CONTRIBUTING.md#contributing</a></p>
+</li>
+<li>
+<p><a href="https://youtube.com/playlist?list=PLtzAOVTpO2jZltVwl3dSEeQllKWZ0YU39&amp;si=UeayyJP8wD-F1ITX">https://youtube.com/playlist?list=PLtzAOVTpO2jZltVwl3dSEeQllKWZ0YU39&amp;si=UeayyJP8wD-F1ITX</a></p>
+</li>
+<li>
+<p><a href="https://gist.github.com/07b8c7b4a9e05579921aa3cc8aed4866">https://gist.github.com/07b8c7b4a9e05579921aa3cc8aed4866</a></p>
+</li>
+<li>
+<p><a href="https://gist.github.com/2bb4bb6d7a6abaa07cebc7c04d1cafa5#file-agi-py">https://gist.github.com/2bb4bb6d7a6abaa07cebc7c04d1cafa5#file-agi-py</a></p>
+</li>
+</ul>
+<h3 id="next-steps">Next Steps</h3>
+<ul>
+<li>[ ] <a href="https://github.com/intel/dffml/tree/main/docs/tutorials/rolling_alice/0000_architecting_alice#rolling-alice-volume-0-introduction-and-context">Rolling Alice: Architecting Alice: Introduction and Context</a></li>
+<li>[ ] <a href="https://asciinema.org/a/674483">2024-09-02: Rolling Alice Architecting Alice A Shell for a Ghost: SSH LLM help from anywhere as long as you have a tmux session:</a></li>
+</ul>
+<p>We'll start by building an LLM with the ability to make requests
+outside of its codebase. Then we’ll test it out with the example
+we just made. We’ll then go deeper into the role of the
+<code>policy_engine</code> and the <code>transparency_service</code>. We’ll see how
+those two services can be used to create a secure and trustworthy
+environment for our LLM.</p>
+<h3 id="its-a-wonderful-dream">It’s A Wonderful Dream</h3>
+<p>The Open Architecture allows for an infinite number of
+possible flows and system contexts. We must always think in
+parallel about those possibilities. We are not looking to
+control the world, we are looking to understand it, and to
+use that understanding to improve it.</p>
+<p>We will continue to explore the possibilities of the Open
+Architecture, and we will continue to share our knowledge with
+the world. We believe that this work can help us build a more
+secure, more transparent, and more equitable future.</p>
+<hr>
+<ul>
 <li>Flow</li>
 <li>Flow State</li>
 <li>Acceleration</li>
 </ul>
-<h2 id="flow">Flow</h2>
+<h2 id="flow-1">Flow</h2>
 <ul>
 <li>What do we want to do.
 <ul>
@@ -35,14 +329,14 @@
 </ul>
 </li>
 </ul>
-<h2 id="sandbox">Sandbox</h2>
+<h2 id="sandbox-1">Sandbox</h2>
 <ul>
 <li>compute</li>
 <li>network</li>
 <li>switch_root on RoTs</li>
 <li><code>uses</code></li>
 </ul>
-<h2 id="executing-a-flow-within-a-sandbox">Executing a Flow Within A Sandbox</h2>
+<h2 id="executing-a-flow-within-a-sandbox-1">Executing a Flow Within A Sandbox</h2>
 <p><a href="https://asciinema.org/a/674501?t=111"><img src="https://asciinema.org/a/674501.svg" alt="asciicast-2024-09-02: Rolling Alice: Architecting: Alice: A Shell for a Ghost: SSH LLM help from anywhere as long as you have a tmux session: install tpm2-tools on fedora"></a></p>
 <p>Any unix machine (currently only fedora and debian based distro dependencies are auto installed. Passwordless sudo recommended) with tmux if you run this ssh command you’ll get a ghost in your shell. Inspired by <a href="https://localhost.run">https://localhost.run</a></p>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># From within TMUX</span>
