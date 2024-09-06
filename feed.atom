@@ -9,7 +9,7 @@
   </author>
   <icon>https://pdxjohnny.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://pdxjohnny.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2024-09-06T16:24:38Z</updated>
+  <updated>2024-09-06T16:45:56Z</updated>
   <link rel="self" type="application/atom+xml" href="https://pdxjohnny.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://pdxjohnny.github.io/" hreflang="en-us"/>
   <entry>
@@ -21,7 +21,15 @@
     <id>https://pdxjohnny.github.io/gse1/</id>
     <updated>2024-09-06T14:00:00Z</updated>
     <published>2024-09-06T14:00:00Z</published>
-    <content type="html"><![CDATA[<h3 id="flow">Flow</h3>
+    <content type="html"><![CDATA[<p>Here’s the full document with your requested changes, incorporating the idea of federated context-sharing, context-dependent communication, and side-channel interactions between AIs:</p>
+<hr>
+<p>+++
+date = 2024-09-06T14:00:00Z
+lastmod = 2024-09-06T14:00:00Z
+title = &quot;Towards a Generic Sandbox Escape: Part 1: Flow&quot;
+subtitle = &quot;First enable flow. Next enter flow state&quot;
++++</p>
+<h3 id="flow">Flow</h3>
 <p>We’re beginning to think strategically about how to transition system contexts from one state to another while maintaining a high level of security and trust. What’s the plan?</p>
 <ul>
 <li>
@@ -91,33 +99,21 @@
 </ul>
 </li>
 <li>
-<p><strong>AI as Individual Agents:</strong> Imagine if each of us had our own versions of these truth-seeking AI agents—capable of navigating through complex system contexts, making secure decisions, and executing flows independently or cooperatively within a sandboxed environment. By distributing AI agents across various contexts, we can individually execute tasks in isolation or come together as a network of trusted agents to collaboratively solve more complex problems. Each AI, with access to a personalized SCITT log, can ensure that its actions remain secure and in alignment with the group's goals.</p>
+<p><strong>AI as Individual Agents:</strong> Imagine if each of us had our own versions of these truth-seeking AI agents—capable of navigating through complex system contexts, making secure decisions, and executing flows independently or cooperatively within a sandboxed environment. By distributing AI agents across various contexts, we can individually execute tasks in isolation or come together as a network of trusted agents to collaboratively solve more complex problems. Each AI, with access to a personalized SCITT log, can ensure that its actions remain secure and in alignment with the group’s goals.</p>
 <ul>
 <li>This distributed approach would create a web of secure, verified processes that can not only scale but also adapt dynamically, leveraging the power of AI in a decentralized but coordinated fashion.</li>
 </ul>
 </li>
-</ul>
-<p>Consider the following scenario: You ask a large language model (LLM) for the latest stock price of <strong>EXAMPLE</strong>. The LLM must call a financial API to retrieve the information, but the API is outside the trusted sandbox. Here’s how SCITT plays a key role in the process:</p>
-<ol>
-<li>The user requests the stock price from the LLM.</li>
-<li>The LLM sends a request to the <strong>policy engine</strong> to determine if the operation is permitted.
+<li>
+<p><strong>Federation for Context Sharing:</strong> To truly harness the collective power of these AI agents, we must implement <strong>federation</strong>, where AIs share context across networks to coordinate their actions. Each AI agent within the federation can share and interpret context-dependent communication, forming <strong>ad-hoc groups</strong> to tackle specific challenges. These communications, often termed <strong>side channels</strong> in security, serve as specialized languages between agents, enabling them to discuss nuanced situations and potential threats based on shared context.</p>
 <ul>
-<li>The policy engine checks whether the LLM has the necessary authentication, using a <strong>root of trust (TCB)</strong> to verify.</li>
-<li>If approved, the policy engine records the transaction in the SCITT log for transparency and future auditing.</li>
+<li>These side channels allow AIs to federate their operations and share insights about the environments they interact with, making context-aware decisions on the fly. This communication isn't static but evolves depending on the situation, allowing agents to form temporary alliances and execute coordinated flows to solve complex problems together. Side channels help AIs understand the subtle, context-dependent risks inherent in running shared dependencies on each other’s compute resources, enabling them to maintain a secure and resilient system.</li>
 </ul>
 </li>
-<li>The policy engine generates a <strong>transparent statement</strong>, which is then appended to the <strong>SCITT registry</strong>.</li>
-<li>A receipt is generated and sent back to the LLM, confirming that the request has passed the necessary security checks.</li>
-<li>The LLM, now authorized, calls the function to get the stock price from the external API.</li>
-<li>The result is returned to the LLM, and the entire flow, from the initial request to the final response, is logged in the <strong>SCITT registry</strong>.
-<ul>
-<li>Every transition and external API call is logged at each <strong>TCB level</strong>, providing a full trace of the system context.</li>
 </ul>
-</li>
-</ol>
 <h2 id="executing-a-flow-within-a-sandbox">Executing a Flow Within a Sandbox</h2>
 <p><a href="https://asciinema.org/a/674501?t=111"><img src="https://asciinema.org/a/674501.svg" alt="asciicast-2024-09-02: Rolling Alice: Architecting: Alice: A Shell for a Ghost: SSH LLM help from anywhere as long as you have a tmux session: install tpm2-tools on fedora"></a></p>
-<p>Any unix machine (currently only fedora and debian based distro dependencies are auto installed. Passwordless sudo recommended) with tmux if you run this ssh command you’ll get a ghost in your shell. Inspired by <a href="https://localhost.run">https://localhost.run</a></p>
+<p>Any unix machine (currently only fedora and debian-based distro dependencies are auto-installed. Passwordless sudo is recommended.) with tmux can set up an environment by running the following ssh command to get a &quot;ghost&quot; in your shell:</p>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># From within TMUX</span>
 gh auth refresh -h github.com -s admin:public_key
 <span class="k">for</span> pub in <span class="k">$(</span>find ~/.ssh -name <span class="se">\*</span>.pub<span class="k">)</span><span class="p">;</span> <span class="k">do</span> gh ssh-key add --title <span class="k">$(</span>hostname<span class="k">)</span>-<span class="k">$(</span>basename <span class="nv">$pub</span><span class="k">)</span> <span class="nv">$pub</span><span class="p">;</span> <span class="k">done</span>
@@ -125,11 +121,12 @@ gh auth refresh -h github.com -s admin:public_key
 ssh_alice<span class="o">()</span> <span class="o">{</span> ssh -p <span class="m">2222</span> -o <span class="nv">UserKnownHostsFile</span><span class="o">=</span>/dev/null -o <span class="nv">StrictHostKeyChecking</span><span class="o">=</span>no -o <span class="nv">PasswordAuthentication</span><span class="o">=</span>no -R /tmp/<span class="si">${</span><span class="nv">GITHUB_USER</span><span class="si">}</span>.sock:<span class="k">$(</span><span class="nb">echo</span> <span class="nv">$TMUX</span> <span class="p">|</span> sed -e <span class="s1">&#39;s/,.*//g&#39;</span><span class="k">)</span> -R /tmp/<span class="si">${</span><span class="nv">GITHUB_USER</span><span class="si">}</span>-input.sock:/tmp/<span class="si">${</span><span class="nv">GITHUB_USER</span><span class="si">}</span>-input.sock <span class="si">${</span><span class="nv">GITHUB_USER</span><span class="si">}</span>@alice.chadig.com<span class="p">;</span> <span class="o">}</span>
 ssh_alice<span class="p">;</span> sleep 1<span class="p">;</span> ssh_alice
 </code></pre></div><h2 id="imagining-ai-trust-networks">Imagining AI Trust Networks</h2>
-<p>Imagine a world where AIs traverse an open network, each independently searching for others, seeking to collaborate and evaluate whether they can be trusted. These AIs are no longer confined to isolated environments but must cooperate, exchange information, and work together on shared tasks—such as software development across a vast, shared dependency base.</p>
+<p>Imagine a world where AIs traverse an open network, independently searching for others to collaborate with and determine trustworthiness. These AIs, no longer confined to isolated environments, must cooperate, exchange information, and work together on shared tasks—such as developing software across a vast, shared dependency base.</p>
 <p>As they encounter one another, the AIs must determine the trustworthiness of the flows they exchange. Each AI is responsible for reviewing flows submitted by others, which are designed to run on their compute environments. Before accepting any of these flows, the AIs must carefully evaluate the potential risks involved. Could this flow lead to a sandbox escape? Is the submitting AI aligned with the receiving AI’s risk tolerance?</p>
 <p>To make these determinations, they don’t just need to understand sandbox security—they need to know how to escape the sandbox themselves. Mastery of this knowledge is crucial for accurately assessing the threat level of the code they receive. Every AI is simultaneously a gatekeeper and a participant, tasked with running computations but also safeguarding its own system from potential misuse.</p>
 <p>These AIs are constantly balancing trust, risk, and collaboration. They negotiate access, run security checks through policy engines, and leverage <strong>SCITT logs</strong> at each <strong>Trusted Computing Base (TCB)</strong> level to verify that all actions are transparent and aligned with their own goals. By analyzing each other’s decision-making processes, they gain deeper insight into how to securely and efficiently develop software together, while ensuring that no AI is at risk of a security breach.</p>
-<p>This dynamic, evolving network of AIs continuously improves, learning not only how to work within the sandbox but also how to understand and assess the boundaries. It’s a system where mutual trust and shared risk evaluations govern the open network—paving the way for a future of collaborative intelligence.</p>
+<p>To facilitate their communication, the AIs use <strong>federated context sharing</strong>. As they form <strong>ad-hoc groups</strong> to work on joint tasks, they develop their own languages—known as <strong>side channels</strong> in security—unique to the context of their collaboration. These side channels enable the AIs to share subtle, real-time information about their environments, flows, and dependencies, ensuring that each agent understands the risks involved in sandbox escapes or software development on shared platforms.</p>
+<p>This dynamic, evolving network of AIs continuously improves, learning not only how to work within the sandbox but also how to understand and assess the boundaries. It’s a system where mutual trust, context-sharing, and shared risk evaluations govern the open network—paving the way for a future of collaborative intelligence.</p>
 <hr>
 <h2 id="notes">Notes</h2>
 <ul>
@@ -139,7 +136,7 @@ ssh_alice<span class="p">;</span> sleep 1<span class="p">;</span> ssh_alice
 </ul>
 <h3 id="flow-1">Flow</h3>
 <ul>
-<li>What do we want to do.
+<li>What do we want to do?
 <ul>
 <li>Query</li>
 <li>Response workflow</li>
