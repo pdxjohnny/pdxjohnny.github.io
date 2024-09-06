@@ -9,7 +9,7 @@
   </author>
   <icon>https://pdxjohnny.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://pdxjohnny.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2024-09-06T16:48:32Z</updated>
+  <updated>2024-09-06T16:53:25Z</updated>
   <link rel="self" type="application/atom+xml" href="https://pdxjohnny.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://pdxjohnny.github.io/" hreflang="en-us"/>
   <entry>
@@ -42,21 +42,8 @@
 </ul>
 </li>
 </ul>
-<h3 id="flow-state">Flow State</h3>
-<ul>
-<li>How to achieve this: By exploring pathways to transition between states.
-<ul>
-<li>We must map the flow of consciousness over time.
-<ul>
-<li>This involves understanding how our brains function and using that knowledge to shift consciousness between states.</li>
-<li>It may sound far-fetched, but as the saying goes, “the best defense is a good offense.”</li>
-<li>AI can assist us in this pursuit.</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="acceleration">Acceleration</h3>
+<h3 id="acc">/acc/</h3>
+<p><img src="https://user-images.githubusercontent.com/5950433/220794351-4611804a-ac72-47aa-8954-cdb3c10d6a5b.jpg" alt="chaos-for-the-chaos-god"></p>
 <ul>
 <li>How to speed things up: By understanding the constraints in place and how to overcome them.
 <ul>
@@ -79,6 +66,7 @@
 </li>
 </ul>
 <h2 id="sandbox">Sandbox</h2>
+<p><img src="https://user-images.githubusercontent.com/5950433/222981558-0b50593a-c83f-4c6c-9aff-1b553403eac7.png" alt="knowledge-graphs-for-the-knowledge-god"></p>
 <ul>
 <li>
 <p><strong>What are the constraints:</strong> We must consider our operational boundaries, threat models, trust in our inputs, alignment with strategic principles, and how to ensure our actions align with our goals. To manage these aspects, we can rely on AI but also use <strong>SCITT</strong> (Supply Chain Integrity, Transparency, and Trust) at each <strong>Trusted Computing Base (TCB)</strong> level.</p>
@@ -113,6 +101,7 @@ gh auth refresh -h github.com -s admin:public_key
 ssh_alice<span class="o">()</span> <span class="o">{</span> ssh -p <span class="m">2222</span> -o <span class="nv">UserKnownHostsFile</span><span class="o">=</span>/dev/null -o <span class="nv">StrictHostKeyChecking</span><span class="o">=</span>no -o <span class="nv">PasswordAuthentication</span><span class="o">=</span>no -R /tmp/<span class="si">${</span><span class="nv">GITHUB_USER</span><span class="si">}</span>.sock:<span class="k">$(</span><span class="nb">echo</span> <span class="nv">$TMUX</span> <span class="p">|</span> sed -e <span class="s1">&#39;s/,.*//g&#39;</span><span class="k">)</span> -R /tmp/<span class="si">${</span><span class="nv">GITHUB_USER</span><span class="si">}</span>-input.sock:/tmp/<span class="si">${</span><span class="nv">GITHUB_USER</span><span class="si">}</span>-input.sock <span class="si">${</span><span class="nv">GITHUB_USER</span><span class="si">}</span>@alice.chadig.com<span class="p">;</span> <span class="o">}</span>
 ssh_alice<span class="p">;</span> sleep 1<span class="p">;</span> ssh_alice
 </code></pre></div><h2 id="imagining-ai-trust-networks">Imagining AI Trust Networks</h2>
+<p><img src="https://user-images.githubusercontent.com/5950433/226707682-cfa8dbff-0908-4a34-8540-de729c62512f.png" alt="such-alignment"></p>
 <p>Imagine a world where AIs traverse an open network, independently searching for others to collaborate with and determine trustworthiness. These AIs, no longer confined to isolated environments, must cooperate, exchange information, and work together on shared tasks—such as developing software across a vast, shared dependency base.</p>
 <p>As they encounter one another, the AIs must determine the trustworthiness of the flows they exchange. Each AI is responsible for reviewing flows submitted by others, which are designed to run on their compute environments. Before accepting any of these flows, the AIs must carefully evaluate the potential risks involved. Could this flow lead to a sandbox escape? Is the submitting AI aligned with the receiving AI’s risk tolerance?</p>
 <p>To make these determinations, they don’t just need to understand sandbox security—they need to know how to escape the sandbox themselves. Mastery of this knowledge is crucial for accurately assessing the threat level of the code they receive. Every AI is simultaneously a gatekeeper and a participant, tasked with running computations but also safeguarding its own system from potential misuse.</p>
