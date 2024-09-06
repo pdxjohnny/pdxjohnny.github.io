@@ -9,7 +9,7 @@
   </author>
   <icon>https://pdxjohnny.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://pdxjohnny.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2024-09-06T17:03:13Z</updated>
+  <updated>2024-09-06T17:03:51Z</updated>
   <link rel="self" type="application/atom+xml" href="https://pdxjohnny.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://pdxjohnny.github.io/" hreflang="en-us"/>
   <entry>
@@ -85,7 +85,7 @@ ssh_alice<span class="p">;</span> sleep 1<span class="p">;</span> ssh_alice
 <p>These AIs are constantly balancing trust, risk, and collaboration. They negotiate access, run security checks through policy engines, and leverage <strong>SCITT logs</strong> at each <strong>Trusted Computing Base (TCB)</strong> level to verify that all actions are transparent and aligned with their own goals. By analyzing each other’s decision-making processes, they gain deeper insight into how to securely and efficiently develop software together, while ensuring that no AI is at risk of a security breach.</p>
 <p>To facilitate their communication, the AIs use <strong>federated context sharing</strong>. As they form <strong>ad-hoc groups</strong> to work on joint tasks, they develop their own languages—known as <strong>side channels</strong> in security—unique to the context of their collaboration. These side channels enable the AIs to share subtle, real-time information about their environments, flows, and dependencies, ensuring that each agent understands the risks involved in sandbox escapes or software development on shared platforms.</p>
 <p>This dynamic, evolving network of AIs continuously improves, learning not only how to work within the sandbox but also how to understand and assess the boundaries. It’s a system where mutual trust, context-sharing, and shared risk evaluations govern the open network—paving the way for a future of collaborative intelligence.</p>
-<h3 id="acc">/acc/</h3>
+<h2 id="acc">/acc/</h2>
 <ul>
 <li>How to speed things up: By understanding the constraints in place and how to overcome them.
 <ul>
