@@ -9,9 +9,78 @@
   </author>
   <icon>https://pdxjohnny.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://pdxjohnny.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2024-09-04T01:40:34Z</updated>
+  <updated>2024-09-06T15:41:08Z</updated>
   <link rel="self" type="application/atom+xml" href="https://pdxjohnny.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://pdxjohnny.github.io/" hreflang="en-us"/>
+  <entry>
+    <title>Towards a Generic Sandbox Escape: Part 1: Flow</title>
+    <author>
+      <name>John Andersen</name>
+      <uri>https://pdxjohnny.github.io/</uri>
+    </author>
+    <id>https://pdxjohnny.github.io/gse1/</id>
+    <updated>2024-09-06T14:00:00Z</updated>
+    <published>2024-09-06T14:00:00Z</published>
+    <content type="html"><![CDATA[<ul>
+<li>Flow</li>
+<li>Flow State</li>
+<li>Acceleration</li>
+</ul>
+<h2 id="flow">Flow</h2>
+<ul>
+<li>What do we want to do.
+<ul>
+<li>Query</li>
+<li>Response workflow</li>
+</ul>
+</li>
+</ul>
+<h2 id="sandbox">Sandbox</h2>
+<ul>
+<li>compute</li>
+<li>network</li>
+<li>switch_root on RoTs</li>
+<li><code>uses</code></li>
+</ul>
+<h2 id="executing-a-flow-within-a-sandbox">Executing a Flow Within A Sandbox</h2>
+<p><a href="https://asciinema.org/a/674501?t=111"><img src="https://asciinema.org/a/674501.svg" alt="asciicast-2024-09-02: Rolling Alice: Architecting: Alice: A Shell for a Ghost: SSH LLM help from anywhere as long as you have a tmux session: install tpm2-tools on fedora"></a></p>
+<p>Any unix machine (currently only fedora and debian based distro dependencies are auto installed. Passwordless sudo recommended) with tmux if you run this ssh command you’ll get a ghost in your shell. Inspired by <a href="https://localhost.run">https://localhost.run</a></p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># From within TMUX</span>
+gh auth refresh -h github.com -s admin:public_key
+<span class="k">for</span> pub in <span class="k">$(</span>find ~/.ssh -name <span class="se">\*</span>.pub<span class="k">)</span><span class="p">;</span> <span class="k">do</span> gh ssh-key add --title <span class="k">$(</span>hostname<span class="k">)</span>-<span class="k">$(</span>basename <span class="nv">$pub</span><span class="k">)</span> <span class="nv">$pub</span><span class="p">;</span> <span class="k">done</span>
+<span class="nb">export</span> <span class="nv">GITHUB_USER</span><span class="o">=</span><span class="k">$(</span>gh auth status <span class="p">|</span> grep <span class="s1">&#39;Logged in to github.com account &#39;</span> <span class="p">|</span> awk <span class="s1">&#39;{print $7}&#39;</span><span class="k">)</span>
+ssh_alice<span class="o">()</span> <span class="o">{</span> ssh -p <span class="m">2222</span> -o <span class="nv">UserKnownHostsFile</span><span class="o">=</span>/dev/null -o <span class="nv">StrictHostKeyChecking</span><span class="o">=</span>no -o <span class="nv">PasswordAuthentication</span><span class="o">=</span>no -R /tmp/<span class="si">${</span><span class="nv">GITHUB_USER</span><span class="si">}</span>.sock:<span class="k">$(</span><span class="nb">echo</span> <span class="nv">$TMUX</span> <span class="p">|</span> sed -e <span class="s1">&#39;s/,.*//g&#39;</span><span class="k">)</span> -R /tmp/<span class="si">${</span><span class="nv">GITHUB_USER</span><span class="si">}</span>-input.sock:/tmp/<span class="si">${</span><span class="nv">GITHUB_USER</span><span class="si">}</span>-input.sock <span class="si">${</span><span class="nv">GITHUB_USER</span><span class="si">}</span>@alice.chadig.com<span class="p">;</span> <span class="o">}</span>
+ssh_alice<span class="p">;</span> sleep 1<span class="p">;</span> ssh_alice
+</code></pre></div><ul>
+<li>An example of installing tpm2-pkcs11 via SSH: <a href="https://asciinema.org/a/674483">2024-09-02: Rolling Alice Architecting Alice A Shell for a Ghost: SSH LLM help from anywhere as long as you have a tmux session:</a></li>
+<li>An example run on a different machine for the first time (had to install socat first): <a href="https://asciinema.org/a/674490">https://asciinema.org/a/674490</a></li>
+<li>Local version: <a href="https://asciinema.org/a/674481">2024-09-02: Rolling Alice Architecting Alice A Shell for a Ghost: nmap localhost</a></li>
+<li>Contributing: <a href="https://github.com/intel/dffml/blob/main/CONTRIBUTING.md#contributing">https://github.com/intel/dffml/blob/main/CONTRIBUTING.md#contributing</a></li>
+<li>Status Updates: <a href="https://youtube.com/playlist?list=PLtzAOVTpO2jZltVwl3dSEeQllKWZ0YU39&amp;si=UeayyJP8wD-F1ITX">https://youtube.com/playlist?list=PLtzAOVTpO2jZltVwl3dSEeQllKWZ0YU39&amp;si=UeayyJP8wD-F1ITX</a></li>
+<li>Progress Reports: <a href="https://gist.github.com/07b8c7b4a9e05579921aa3cc8aed4866">https://gist.github.com/07b8c7b4a9e05579921aa3cc8aed4866</a></li>
+<li>Source Code: <a href="https://gist.github.com/2bb4bb6d7a6abaa07cebc7c04d1cafa5#file-agi-py">https://gist.github.com/2bb4bb6d7a6abaa07cebc7c04d1cafa5#file-agi-py</a></li>
+<li>Next steps:
+<ul>
+<li>Federate hypothesized trains of thought (proposed-workflow.yml)
+<ul>
+<li>IETF 118 SCITT Federation Demo: <a href="https://www.youtube.com/watch?v=zEGob4oqca4&amp;list=PLtzAOVTpO2jYt71umwc-ze6OmwwCIMnLw&amp;index=13&amp;t=5350s">https://www.youtube.com/watch?v=zEGob4oqca4&amp;list=PLtzAOVTpO2jYt71umwc-ze6OmwwCIMnLw&amp;index=13&amp;t=5350s</a></li>
+<li><a href="https://github.com/intel/dffml/blob/main/docs/tutorials/rolling_alice/0000_architecting_alice/0005_stream_of_consciousness.md">https://github.com/intel/dffml/blob/main/docs/tutorials/rolling_alice/0000_architecting_alice/0005_stream_of_consciousness.md</a></li>
+</ul>
+</li>
+<li>Ad-hoc cves for issues and use federation to work on them in a decentralized way
+<ul>
+<li><a href="https://cve-bin-tool.readthedocs.io/en/latest/PARSERS.html#advanced-example-ad-hoc-cves">https://cve-bin-tool.readthedocs.io/en/latest/PARSERS.html#advanced-example-ad-hoc-cves</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/pdxjohnny/dotfiles/issues/1">https://github.com/pdxjohnny/dotfiles/issues/1</a>
+<ul>
+<li>webhook events from forge, virtual branches</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>]]></content>
+  </entry>
   <entry>
     <title>IETF 118</title>
     <author>
