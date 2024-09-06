@@ -9,7 +9,7 @@
   </author>
   <icon>https://pdxjohnny.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://pdxjohnny.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2024-09-06T16:47:36Z</updated>
+  <updated>2024-09-06T16:48:02Z</updated>
   <link rel="self" type="application/atom+xml" href="https://pdxjohnny.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://pdxjohnny.github.io/" hreflang="en-us"/>
   <entry>
@@ -21,15 +21,7 @@
     <id>https://pdxjohnny.github.io/gse1/</id>
     <updated>2024-09-06T14:00:00Z</updated>
     <published>2024-09-06T14:00:00Z</published>
-    <content type="html"><![CDATA[<p>Here’s the full document with your requested changes, incorporating the idea of federated context-sharing, context-dependent communication, and side-channel interactions between AIs:</p>
-<hr>
-<p>+++
-date = 2024-09-06T14:00:00Z
-lastmod = 2024-09-06T14:00:00Z
-title = &quot;Towards a Generic Sandbox Escape: Part 1: Flow&quot;
-subtitle = &quot;First enable flow. Next enter flow state&quot;
-+++</p>
-<h3 id="flow">Flow</h3>
+    <content type="html"><![CDATA[<h3 id="flow">Flow</h3>
 <p>We’re beginning to think strategically about how to transition system contexts from one state to another while maintaining a high level of security and trust. What’s the plan?</p>
 <ul>
 <li>
