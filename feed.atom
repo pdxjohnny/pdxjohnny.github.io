@@ -9,11 +9,11 @@
   </author>
   <icon>https://pdxjohnny.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://pdxjohnny.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2024-09-07T21:09:18Z</updated>
+  <updated>2024-09-07T21:17:04Z</updated>
   <link rel="self" type="application/atom+xml" href="https://pdxjohnny.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://pdxjohnny.github.io/" hreflang="en-us"/>
   <entry>
-    <title>Towards a Generic Sandbox Escape: Part 2: Flow State</title>
+    <title>Towards a Generic Methodology for Sandbox Escape: Part 2: Flow State</title>
     <author>
       <name>John Andersen</name>
       <uri>https://pdxjohnny.github.io/</uri>
