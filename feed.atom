@@ -9,11 +9,11 @@
   </author>
   <icon>https://pdxjohnny.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://pdxjohnny.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2024-10-06T15:15:22Z</updated>
+  <updated>2024-10-06T15:21:58Z</updated>
   <link rel="self" type="application/atom+xml" href="https://pdxjohnny.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://pdxjohnny.github.io/" hreflang="en-us"/>
   <entry>
-    <title>🪬 Hail Mary</title>
+    <title>God has no name</title>
     <author>
       <name>John Andersen</name>
       <uri>https://pdxjohnny.github.io/</uri>
@@ -21,7 +21,7 @@
     <id>https://pdxjohnny.github.io/religion/</id>
     <updated>2024-10-06T08:15:00Z</updated>
     <published>2024-10-06T08:15:00Z</published>
-    <content type="html"><![CDATA[<h1 id="god-has-no-name">God has no name</h1>
+    <content type="html"><![CDATA[<p><img src="https://github.com/user-attachments/assets/f753689a-8956-426d-886b-1f9d6ac86876" alt="the-glories-of-mary"></p>
 <blockquote>
 <p>TODO align to Open Religion Spec v1.0.0. Ideas are meant to be free (public domain) for iteration by whomever. Fork and commit.</p>
 </blockquote>
