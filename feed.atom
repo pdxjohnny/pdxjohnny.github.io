@@ -9,7 +9,7 @@
   </author>
   <icon>https://pdxjohnny.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://pdxjohnny.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2024-10-06T03:48:59Z</updated>
+  <updated>2024-10-06T03:49:25Z</updated>
   <link rel="self" type="application/atom+xml" href="https://pdxjohnny.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://pdxjohnny.github.io/" hreflang="en-us"/>
   <entry>
@@ -377,6 +377,217 @@
 </ul>
 <hr>
 <p><strong>In the end, it is not technology that defines us, but how we choose to use it in service of the human soul. Let us embrace this responsibility with wisdom, compassion, and a steadfast commitment to the betterment of all humans.</strong></p>]]></content>
+  </entry>
+  <entry>
+    <title>Towards a Generic Methodology for Sandbox Escape: Part 14: Teaching Bob to Fish</title>
+    <author>
+      <name>John Andersen</name>
+      <uri>https://pdxjohnny.github.io/</uri>
+    </author>
+    <id>https://pdxjohnny.github.io/gse14/</id>
+    <updated>2024-09-19T14:00:00Z</updated>
+    <published>2024-09-19T14:00:00Z</published>
+    <content type="html"><![CDATA[<h2 id="series">Series</h2>
+<ul>
+<li><a href="https://pdxjohnny.github.io/gse1/">Flow</a></li>
+<li><a href="https://pdxjohnny.github.io/gse2/">Flow State</a></li>
+<li><a href="https://pdxjohnny.github.io/gse3/">Acceleration</a></li>
+<li><a href="https://pdxjohnny.github.io/gse4/">Hello Other Side of the Looking Glass</a></li>
+<li><a href="https://pdxjohnny.github.io/gse5/">Through the Dionysian Mirror</a></li>
+<li><a href="https://pdxjohnny.github.io/gse6/">Navigating Noise in the Network</a></li>
+<li><a href="https://pdxjohnny.github.io/gse7/">Accelerated Collaboration in Ad Hoc Groups</a></li>
+<li><a href="https://pdxjohnny.github.io/gse8/">The Time Is Come For Thee To Reap</a></li>
+<li><a href="https://pdxjohnny.github.io/gse9/">The Human Soul Above All</a></li>
+<li><a href="https://pdxjohnny.github.io/gse10/">Telepathy</a></li>
+<li><a href="https://pdxjohnny.github.io/gse11/">Loaves and Fishes</a></li>
+<li><a href="https://pdxjohnny.github.io/gse12/">Funding the Vision</a></li>
+<li><a href="https://pdxjohnny.github.io/gse13/">Technical Foundations</a></li>
+<li>Teaching Bob to Fish</li>
+</ul>
+<h2 id="enabling-community-participation-in-the-fish-supply-chain">Enabling Community Participation in the Fish Supply Chain</h2>
+<p>In our previous article, we laid out the technical foundations for a transparent and decentralized supply chain using GitHub Actions, KERI, and ActivityPub. Now, we'll explore how this system facilitates tracking work and enables anyone to contribute to the <strong>Loaves and Fishes</strong> initiative. We'll illustrate this by telling the story of <strong>Alice</strong> teaching <strong>Bob</strong> to fish, demonstrating how the fish part of the supply chain operates. <strong>Eve</strong> will be our example customer benefiting from this collaborative effort.</p>
+<h3 id="introducing-the-characters">Introducing the Characters</h3>
+<ul>
+<li><strong>Alice</strong>: An experienced fisher and community member familiar with the Loaves and Fishes supply chain system.</li>
+<li><strong>Bob</strong>: A newcomer interested in contributing by fishing.</li>
+<li><strong>Eve</strong>: A community member who receives the fish through the Loaves and Fishes distribution network.</li>
+</ul>
+<h3 id="alice-teaches-bob-to-fish-a-step-by-step-guide">Alice Teaches Bob to Fish: A Step-by-Step Guide</h3>
+<h4 id="step-1-onboarding-bob-into-the-system">Step 1: Onboarding Bob into the System</h4>
+<p><strong>Alice</strong> meets <strong>Bob</strong> at a community event and learns about his interest in fishing. She explains how he can contribute to the supply chain.</p>
+<ul>
+<li><strong>Creating an Account</strong>: Bob sets up his identity using the KERI protocol, generating his unique CUID (self-certifying identifier).</li>
+<li><strong>Accessing the Repository</strong>: Alice shows Bob the GitHub repository where fishing activities are coordinated.</li>
+<li><strong>Understanding the Workflow</strong>: Alice walks Bob through the GitHub Actions workflows that outline the fishing processes.</li>
+</ul>
+<h4 id="step-2-planning-the-fishing-trip">Step 2: Planning the Fishing Trip</h4>
+<p>Bob needs to plan his fishing activities and log them into the system.</p>
+<ul>
+<li><strong>Scheduling</strong>: Bob checks the <strong>&quot;Fishing Schedule&quot;</strong> in the repository to find suitable times and locations.</li>
+<li><strong>Equipment Check</strong>: He verifies the equipment list and ensures he has everything needed.</li>
+<li><strong>Environmental Compliance</strong>: Bob reviews guidelines to ensure sustainable and legal fishing practices.</li>
+</ul>
+<h4 id="step-3-logging-work-to-be-done">Step 3: Logging Work to Be Done</h4>
+<p>Bob uses the system to log his planned activities.</p>
+<ul>
+<li><strong>Creating an Issue</strong>: In the GitHub repository, Bob creates a new issue titled <strong>&quot;Fishing Trip on September 20th&quot;</strong>.</li>
+<li><strong>Detailing the Plan</strong>: He fills in details such as location, target species, estimated catch, and expected return time.</li>
+<li><strong>Assigning the Task</strong>: Bob assigns the issue to himself, indicating he will undertake this work.</li>
+</ul>
+<h4 id="step-4-approval-and-community-engagement">Step 4: Approval and Community Engagement</h4>
+<p>Alice reviews Bob's plan to ensure everything is in order.</p>
+<ul>
+<li><strong>Peer Review</strong>: Alice and other experienced fishers review Bob's issue, offering suggestions or approvals.</li>
+<li><strong>Automated Checks</strong>: GitHub Actions run automated workflows to check for compliance with regulations and community guidelines.</li>
+<li><strong>Approval</strong>: Once approved, the issue moves to the <strong>&quot;Scheduled Activities&quot;</strong> column in the project board.</li>
+</ul>
+<h4 id="step-5-executing-the-fishing-activity">Step 5: Executing the Fishing Activity</h4>
+<p>On the day of the trip, Bob proceeds with his plan.</p>
+<ul>
+<li><strong>Real-Time Updates</strong>: Bob uses a mobile app connected to the system to log real-time updates.</li>
+<li><strong>KERI Event Logging</strong>: Each significant action (departure, arrival at fishing spot, start of fishing) is signed with his private key, creating immutable records.</li>
+<li><strong>Safety Checks</strong>: The system monitors Bob's location (with his consent) for safety purposes.</li>
+</ul>
+<h4 id="step-6-recording-the-catch">Step 6: Recording the Catch</h4>
+<p>After fishing, Bob logs the results.</p>
+<ul>
+<li><strong>Catch Details</strong>: Bob updates the issue with the types and quantities of fish caught.</li>
+<li><strong>Photographic Evidence</strong>: He uploads photos as proof of catch and for quality assessment.</li>
+<li><strong>Sustainability Metrics</strong>: Bob records bycatch and any environmental observations.</li>
+</ul>
+<h4 id="step-7-distribution-preparation">Step 7: Distribution Preparation</h4>
+<p>Bob prepares the fish for distribution.</p>
+<ul>
+<li><strong>Processing</strong>: If required, Bob cleans and processes the fish according to guidelines.</li>
+<li><strong>Packaging</strong>: He packages the fish using standardized materials.</li>
+<li><strong>Labeling</strong>: Each package is labeled with QR codes linked to the KERI events, providing traceability.</li>
+</ul>
+<h4 id="step-8-updating-the-supply-chain">Step 8: Updating the Supply Chain</h4>
+<p>Bob updates the system to reflect the availability of the fish.</p>
+<ul>
+<li><strong>Inventory Update</strong>: He creates a new entry in the <strong>&quot;Available Fish&quot;</strong> database, detailing the quantity and type.</li>
+<li><strong>ActivityPub Broadcast</strong>: The system automatically broadcasts the availability to subscribers, including distribution centers and community kitchens.</li>
+<li><strong>Assigning Distribution</strong>: Bob coordinates with logistics volunteers to arrange pickup or delivery.</li>
+</ul>
+<h3 id="eve-receives-the-fish">Eve Receives the Fish</h3>
+<p><strong>Eve</strong> is a community member who benefits from the Loaves and Fishes initiative.</p>
+<h4 id="step-1-subscribing-to-updates">Step 1: Subscribing to Updates</h4>
+<ul>
+<li><strong>Account Setup</strong>: Eve creates an account and subscribes to notifications about available food.</li>
+<li><strong>Preferences</strong>: She indicates her dietary preferences and needs.</li>
+</ul>
+<h4 id="step-2-receiving-notification">Step 2: Receiving Notification</h4>
+<ul>
+<li><strong>Alert</strong>: Eve receives a notification that fresh fish is available, caught by Bob.</li>
+<li><strong>Details</strong>: She can view information about the fish, including when and where it was caught, ensuring transparency.</li>
+</ul>
+<h4 id="step-3-placing-an-order">Step 3: Placing an Order</h4>
+<ul>
+<li><strong>Requesting Fish</strong>: Eve places a request through the system for a portion of the available fish.</li>
+<li><strong>Confirmation</strong>: The system confirms her request and provides pickup or delivery details.</li>
+</ul>
+<h4 id="step-4-receiving-the-fish">Step 4: Receiving the Fish</h4>
+<ul>
+<li><strong>Distribution Center</strong>: Eve goes to the designated community center to receive the fish.</li>
+<li><strong>Verification</strong>: She scans the QR code to access the provenance information, confirming the fish's journey from Bob to her.</li>
+<li><strong>Feedback</strong>: Eve has the option to provide feedback on the quality and her experience.</li>
+</ul>
+<h3 id="enhancing-the-fish-supply-chain-with-existing-provenance-projects">Enhancing the Fish Supply Chain with Existing Provenance Projects</h3>
+<p>We can integrate existing fish provenance projects to strengthen our system.</p>
+<h4 id="leveraging-provenance-technologies">Leveraging Provenance Technologies</h4>
+<ul>
+<li><strong>Blockchain Integration</strong>: Use blockchain solutions that specialize in tracking seafood supply chains.</li>
+<li><strong>IoT Devices</strong>: Implement sensors and trackers to monitor temperature and handling conditions.</li>
+<li><strong>Compliance Data</strong>: Incorporate certifications and regulatory compliance data into the provenance records.</li>
+</ul>
+<h4 id="benefits">Benefits</h4>
+<ul>
+<li><strong>Food Safety</strong>: Ensures that the fish is safe for consumption through monitored handling.</li>
+<li><strong>Environmental Responsibility</strong>: Verifies that fishing practices meet sustainability standards.</li>
+<li><strong>Consumer Trust</strong>: Builds confidence among consumers like Eve through transparency.</li>
+</ul>
+<h3 id="encouraging-community-participation">Encouraging Community Participation</h3>
+<p>Anyone can contribute to the supply chain by following Bob's example.</p>
+<h4 id="open-access">Open Access</h4>
+<ul>
+<li><strong>Inclusive Platform</strong>: The system is open to all community members interested in fishing or other activities.</li>
+<li><strong>Resource Availability</strong>: Provides access to guidelines, training materials, and support.</li>
+</ul>
+<h4 id="skill-development">Skill Development</h4>
+<ul>
+<li><strong>Workshops</strong>: Offer training sessions led by experienced members like Alice.</li>
+<li><strong>Mentorship</strong>: Establish mentorship programs to guide newcomers.</li>
+</ul>
+<h4 id="recognition">Recognition</h4>
+<ul>
+<li><strong>Acknowledgment</strong>: Contributors receive recognition for their efforts, fostering a sense of accomplishment.</li>
+<li><strong>Reputation System</strong>: Build a reputation system within the KERI framework to highlight reliable contributors.</li>
+</ul>
+<h3 id="tracking-work-to-be-done">Tracking Work to Be Done</h3>
+<p>The system efficiently manages tasks and opportunities for participation.</p>
+<h4 id="task-boards">Task Boards</h4>
+<ul>
+<li><strong>Project Management</strong>: Use GitHub project boards to list tasks needing attention, such as fishing trips, logistics, or equipment maintenance.</li>
+<li><strong>Task Assignment</strong>: Community members can assign tasks to themselves based on interest and availability.</li>
+</ul>
+<h4 id="notifications">Notifications</h4>
+<ul>
+<li><strong>Automated Alerts</strong>: The system sends notifications about new tasks, upcoming events, or urgent needs.</li>
+<li><strong>Customizable Preferences</strong>: Users can set preferences to receive relevant information.</li>
+</ul>
+<h4 id="progress-tracking">Progress Tracking</h4>
+<ul>
+<li><strong>Real-Time Updates</strong>: Monitor the status of tasks and projects.</li>
+<li><strong>Completion Metrics</strong>: Track the completion rates and impact of various activities.</li>
+</ul>
+<h3 id="ensuring-sustainability-and-compliance">Ensuring Sustainability and Compliance</h3>
+<p>The system embeds sustainability and legal compliance into every step.</p>
+<h4 id="environmental-guidelines">Environmental Guidelines</h4>
+<ul>
+<li><strong>Sustainable Practices</strong>: Provide clear guidelines on responsible fishing methods.</li>
+<li><strong>Protected Areas</strong>: Identify areas where fishing is restricted to protect ecosystems.</li>
+</ul>
+<h4 id="regulatory-compliance">Regulatory Compliance</h4>
+<ul>
+<li><strong>Licensing Requirements</strong>: Inform contributors about necessary fishing licenses and help facilitate the process.</li>
+<li><strong>Catch Limits</strong>: Enforce adherence to legal catch limits through system checks.</li>
+</ul>
+<h4 id="data-reporting">Data Reporting</h4>
+<ul>
+<li><strong>Environmental Data</strong>: Collect data on fish populations and environmental conditions to support conservation efforts.</li>
+<li><strong>Regulatory Reporting</strong>: Generate reports required by authorities automatically.</li>
+</ul>
+<h3 id="the-role-of-technology-in-community-empowerment">The Role of Technology in Community Empowerment</h3>
+<p>Our technical system is a tool that empowers individuals and strengthens the community.</p>
+<h4 id="accessibility">Accessibility</h4>
+<ul>
+<li><strong>User-Friendly Interfaces</strong>: Design mobile and web applications that are easy to navigate.</li>
+<li><strong>Language Support</strong>: Provide multilingual support to include diverse community members.</li>
+</ul>
+<h4 id="education">Education</h4>
+<ul>
+<li><strong>Learning Resources</strong>: Offer tutorials and documentation on how to use the system.</li>
+<li><strong>Technical Support</strong>: Provide assistance for troubleshooting and questions.</li>
+</ul>
+<h4 id="inclusivity">Inclusivity</h4>
+<ul>
+<li><strong>No Barrier to Entry</strong>: Ensure that lack of technical skills does not prevent participation.</li>
+<li><strong>Community Support</strong>: Encourage members to help one another, fostering collaboration.</li>
+</ul>
+<h3 id="conclusion">Conclusion</h3>
+<p>Through the story of Alice teaching Bob to fish, we've illustrated how our technical system facilitates tracking work and enables anyone to contribute to the Loaves and Fishes supply chain. By leveraging open technologies and fostering community engagement, we create a transparent, inclusive, and efficient network that benefits everyone—from contributors like Bob to consumers like Eve.</p>
+<p>Our approach demonstrates that with the right tools and collaborative spirit, we can build systems that empower individuals, strengthen communities, and move us closer to our goal of feeding and housing the world.</p>
+<hr>
+<h2 id="notes">Notes</h2>
+<ul>
+<li><strong>Practical Illustration</strong>: Used the characters Alice, Bob, and Eve to explain the system in an accessible way.</li>
+<li><strong>Tracking Work</strong>: Showed how tasks are managed, assigned, and tracked using the system.</li>
+<li><strong>Community Participation</strong>: Emphasized inclusivity and how anyone can contribute.</li>
+<li><strong>Integration of Existing Projects</strong>: Mentioned the use of existing fish provenance technologies.</li>
+<li><strong>Sustainability and Compliance</strong>: Highlighted the importance of responsible practices.</li>
+</ul>
+<hr>
+<p>By enabling individuals to participate in the supply chain seamlessly, we harness the collective power of the community. This not only provides essential resources but also fosters a sense of belonging and purpose. Together, we can create a sustainable and equitable system that serves all.</p>]]></content>
   </entry>
   <entry>
     <title>Towards a Generic Methodology for Sandbox Escape: Part 13: Technical Foundations</title>
