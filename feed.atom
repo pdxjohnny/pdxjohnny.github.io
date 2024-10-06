@@ -9,7 +9,7 @@
   </author>
   <icon>https://pdxjohnny.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://pdxjohnny.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2024-10-06T03:48:22Z</updated>
+  <updated>2024-10-06T03:48:59Z</updated>
   <link rel="self" type="application/atom+xml" href="https://pdxjohnny.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://pdxjohnny.github.io/" hreflang="en-us"/>
   <entry>
@@ -377,6 +377,167 @@
 </ul>
 <hr>
 <p><strong>In the end, it is not technology that defines us, but how we choose to use it in service of the human soul. Let us embrace this responsibility with wisdom, compassion, and a steadfast commitment to the betterment of all humans.</strong></p>]]></content>
+  </entry>
+  <entry>
+    <title>Towards a Generic Methodology for Sandbox Escape: Part 13: Technical Foundations</title>
+    <author>
+      <name>John Andersen</name>
+      <uri>https://pdxjohnny.github.io/</uri>
+    </author>
+    <id>https://pdxjohnny.github.io/gse13/</id>
+    <updated>2024-09-18T14:00:00Z</updated>
+    <published>2024-09-18T14:00:00Z</published>
+    <content type="html"><![CDATA[<h2 id="series">Series</h2>
+<ul>
+<li><a href="https://pdxjohnny.github.io/gse1/">Flow</a></li>
+<li><a href="https://pdxjohnny.github.io/gse2/">Flow State</a></li>
+<li><a href="https://pdxjohnny.github.io/gse3/">Acceleration</a></li>
+<li><a href="https://pdxjohnny.github.io/gse4/">Hello Other Side of the Looking Glass</a></li>
+<li><a href="https://pdxjohnny.github.io/gse5/">Through the Dionysian Mirror</a></li>
+<li><a href="https://pdxjohnny.github.io/gse6/">Navigating Noise in the Network</a></li>
+<li><a href="https://pdxjohnny.github.io/gse7/">Accelerated Collaboration in Ad Hoc Groups</a></li>
+<li><a href="https://pdxjohnny.github.io/gse8/">The Time Is Come For Thee To Reap</a></li>
+<li><a href="https://pdxjohnny.github.io/gse9/">The Human Soul Above All</a></li>
+<li><a href="https://pdxjohnny.github.io/gse10/">Telepathy</a></li>
+<li><a href="https://pdxjohnny.github.io/gse11/">Loaves and Fishes</a></li>
+<li><a href="https://pdxjohnny.github.io/gse12/">Funding the Vision</a></li>
+<li>Technical Foundations</li>
+</ul>
+<h2 id="technical-foundations-leveraging-github-actions-keri-and-activitypub-for-transparent-supply-chains">Technical Foundations: Leveraging GitHub Actions, KERI, and ActivityPub for Transparent Supply Chains</h2>
+<p>In our previous articles, we outlined a vision to feed and house the world through sustainable, equitable, and community-led initiatives. We discussed funding strategies leveraging traditional and innovative financial systems. Now, we delve into the technical aspects that will enable transparency, trust, and collaboration in our supply chain—the backbone of the <strong>Loaves and Fishes</strong> initiative.</p>
+<h3 id="embracing-open-technologies-for-transparency-and-trust">Embracing Open Technologies for Transparency and Trust</h3>
+<p>To ensure the success of our plan, we must leverage technologies that promote openness, transparency, and verifiability. By using <strong>GitHub Actions workflows</strong>, <strong>KERI (Key Event Receipt Infrastructure)</strong>, and <strong>ActivityPub</strong>, we can create a federated, decentralized system that tracks and authenticates every event in our supply chain.</p>
+<h3 id="github-actions-workflows-automating-and-documenting-processes">GitHub Actions Workflows: Automating and Documenting Processes</h3>
+<p><strong>GitHub Actions</strong> is a powerful automation tool that allows us to create workflows triggered by events in our repositories. By defining our processes as code, we achieve:</p>
+<ul>
+<li><strong>Transparency</strong>: All workflows are publicly accessible, allowing anyone to review and audit our processes.</li>
+<li><strong>Reproducibility</strong>: Workflows can be replicated across different environments, ensuring consistency.</li>
+<li><strong>Collaboration</strong>: Contributors can propose changes through pull requests, fostering community engagement.</li>
+</ul>
+<h4 id="defining-supply-chain-processes">Defining Supply Chain Processes</h4>
+<p>We can model each step of our supply chain as a workflow:</p>
+<ul>
+<li><strong>Farming Operations</strong>: Tracking planting, harvesting, and resource usage.</li>
+<li><strong>Logistics</strong>: Monitoring transportation, storage, and distribution of goods.</li>
+<li><strong>Financial Transactions</strong>: Recording funding disbursements, expenditures, and donations.</li>
+<li><strong>Compliance and Reporting</strong>: Automating regulatory compliance checks and generating reports.</li>
+</ul>
+<p>By codifying these processes, we create a living document of our operations, open for continuous improvement.</p>
+<h3 id="keri-key-event-receipt-infrastructure-decentralized-identity-and-verification">KERI (Key Event Receipt Infrastructure): Decentralized Identity and Verification</h3>
+<p><strong>KERI</strong> is a protocol for decentralized key management and self-certifying identifiers (CUIDs). It provides a secure and scalable way to manage identities and verify events without centralized authorities.</p>
+<h4 id="benefits-of-keri-in-our-supply-chain">Benefits of KERI in Our Supply Chain</h4>
+<ul>
+<li><strong>Immutable Event Logs</strong>: Every event is cryptographically signed and added to an immutable log.</li>
+<li><strong>Decentralized Trust</strong>: Removes reliance on central entities, reducing single points of failure.</li>
+<li><strong>Interoperability</strong>: Compatible with various systems and platforms.</li>
+</ul>
+<h4 id="implementing-keri">Implementing KERI</h4>
+<ul>
+<li><strong>Identity Management</strong>: Assign CUIDs to all entities—farms, transportation vehicles, warehouses, and individuals.</li>
+<li><strong>Event Receipts</strong>: Record every action (e.g., harvesting, shipment dispatch) as an event signed by the entity's keys.</li>
+<li><strong>Verification</strong>: Other parties can verify the authenticity and integrity of events independently.</li>
+</ul>
+<h3 id="activitypub-federated-social-networking-protocol">ActivityPub: Federated Social Networking Protocol</h3>
+<p><strong>ActivityPub</strong> is a decentralized social networking protocol used for federated platforms like Mastodon. It allows for seamless communication between servers and clients across different domains.</p>
+<h4 id="utilizing-activitypub-for-event-distribution">Utilizing ActivityPub for Event Distribution</h4>
+<ul>
+<li><strong>Event Broadcasting</strong>: Share supply chain events across federated networks.</li>
+<li><strong>Subscriptions</strong>: Stakeholders can subscribe to updates relevant to their interests (e.g., a community kitchen subscribing to local farm harvests).</li>
+<li><strong>Interoperability with Other Systems</strong>: ActivityPub's standardized format enables integration with various applications.</li>
+</ul>
+<h4 id="implementing-activitypub">Implementing ActivityPub</h4>
+<ul>
+<li><strong>Actors and Activities</strong>: Define entities (actors) and their actions (activities) within the supply chain.</li>
+<li><strong>Inbox and Outbox</strong>: Each actor has an inbox for receiving activities and an outbox for sending them.</li>
+<li><strong>Security and Permissions</strong>: Control access to activities through permissions and authentication.</li>
+</ul>
+<h3 id="federating-events-in-the-supply-chain">Federating Events in the Supply Chain</h3>
+<p>By combining GitHub Actions, KERI, and ActivityPub, we create a robust system where:</p>
+<ul>
+<li><strong>Events are Recorded</strong>: Actions are captured in GitHub repositories, triggering workflows.</li>
+<li><strong>Events are Verified</strong>: KERI ensures that events are authenticated and tamper-proof.</li>
+<li><strong>Events are Distributed</strong>: ActivityPub broadcasts events to interested parties in real-time.</li>
+</ul>
+<p>This federation enables transparency and trust among all participants, from farmers to consumers.</p>
+<h3 id="practical-example-from-farm-to-table">Practical Example: From Farm to Table</h3>
+<h4 id="step-1-planting-seeds">Step 1: Planting Seeds</h4>
+<ul>
+<li><strong>Action</strong>: A farmer plants a new crop.</li>
+<li><strong>GitHub Workflow</strong>: The farmer logs the planting activity in a GitHub repository.</li>
+<li><strong>KERI Event</strong>: The action is signed with the farmer's private key, creating an immutable record.</li>
+<li><strong>ActivityPub Broadcast</strong>: The planting event is shared with subscribers, such as local distributors.</li>
+</ul>
+<h4 id="step-2-harvesting-crops">Step 2: Harvesting Crops</h4>
+<ul>
+<li><strong>Action</strong>: The crop is harvested.</li>
+<li><strong>GitHub Workflow</strong>: Harvest details are added, triggering quality control workflows.</li>
+<li><strong>KERI Event</strong>: Harvest event is signed and verified.</li>
+<li><strong>ActivityPub Broadcast</strong>: Availability is announced to potential buyers or community kitchens.</li>
+</ul>
+<h4 id="step-3-distribution">Step 3: Distribution</h4>
+<ul>
+<li><strong>Action</strong>: Goods are transported to distribution centers.</li>
+<li><strong>GitHub Workflow</strong>: Shipment details are logged, including routes and schedules.</li>
+<li><strong>KERI Event</strong>: Transportation events are recorded and verified.</li>
+<li><strong>ActivityPub Broadcast</strong>: Real-time tracking information is shared with recipients.</li>
+</ul>
+<h4 id="step-4-consumption">Step 4: Consumption</h4>
+<ul>
+<li><strong>Action</strong>: Food reaches consumers.</li>
+<li><strong>GitHub Workflow</strong>: Receipt of goods is confirmed, closing the supply chain loop.</li>
+<li><strong>KERI Event</strong>: Confirmation is signed, providing end-to-end verification.</li>
+<li><strong>ActivityPub Broadcast</strong>: Feedback and usage data can be shared back with producers.</li>
+</ul>
+<h3 id="ensuring-transparency-and-open-policy">Ensuring Transparency and Open Policy</h3>
+<p>Our approach fosters an open ecosystem where policies are transparent and collaboratively developed.</p>
+<h4 id="open-policy-development">Open Policy Development</h4>
+<ul>
+<li><strong>Community Input</strong>: Policies governing the supply chain are stored in GitHub repositories, open for contributions.</li>
+<li><strong>Version Control</strong>: Changes to policies are tracked, ensuring accountability.</li>
+<li><strong>Consensus Building</strong>: Discussions and reviews enable stakeholders to reach agreements.</li>
+</ul>
+<h4 id="monitoring-and-auditing">Monitoring and Auditing</h4>
+<ul>
+<li><strong>Real-Time Monitoring</strong>: Stakeholders can observe supply chain activities as they happen.</li>
+<li><strong>Audit Trails</strong>: Immutable logs allow for retrospective analysis and compliance verification.</li>
+<li><strong>Accountability</strong>: Transparent operations build trust and deter misconduct.</li>
+</ul>
+<h3 id="advantages-of-this-technical-approach">Advantages of This Technical Approach</h3>
+<ul>
+<li><strong>Scalability</strong>: Decentralized systems can grow organically without bottlenecks.</li>
+<li><strong>Security</strong>: Cryptographic methods protect against tampering and unauthorized access.</li>
+<li><strong>Interoperability</strong>: Standard protocols facilitate integration with other systems and platforms.</li>
+<li><strong>Community Empowerment</strong>: Open technologies encourage participation and innovation.</li>
+</ul>
+<h3 id="challenges-and-mitigation-strategies">Challenges and Mitigation Strategies</h3>
+<h4 id="technical-complexity">Technical Complexity</h4>
+<ul>
+<li><strong>Education and Training</strong>: Provide resources to help participants understand and use the technologies.</li>
+<li><strong>User-Friendly Tools</strong>: Develop interfaces that simplify interactions with underlying systems.</li>
+</ul>
+<h4 id="accessibility">Accessibility</h4>
+<ul>
+<li><strong>Bridging the Digital Divide</strong>: Ensure access to necessary hardware and internet connectivity.</li>
+<li><strong>Localization</strong>: Adapt tools and documentation to different languages and cultural contexts.</li>
+</ul>
+<h4 id="privacy-concerns">Privacy Concerns</h4>
+<ul>
+<li><strong>Data Protection</strong>: Implement privacy-preserving techniques where sensitive information is involved.</li>
+<li><strong>Consent Mechanisms</strong>: Allow participants to control what information they share and with whom.</li>
+</ul>
+<h3 id="conclusion">Conclusion</h3>
+<p>By leveraging GitHub Actions, KERI, and ActivityPub, we establish a transparent, secure, and collaborative supply chain for the <strong>Loaves and Fishes</strong> initiative. This technical foundation not only ensures the integrity of our operations but also empowers communities to participate actively in building a more equitable food system.</p>
+<p>Our approach exemplifies how open technologies can be harnessed to address real-world challenges, fostering trust and collaboration at every step. Through transparency and innovation, we move closer to realizing our vision of feeding and housing the world.</p>
+<hr>
+<h2 id="notes">Notes</h2>
+<ul>
+<li><strong>Integration of Technologies</strong>: Demonstrated how GitHub Actions, KERI, and ActivityPub work together.</li>
+<li><strong>Transparency and Trust</strong>: Emphasized the importance of open policy and verifiable events.</li>
+<li><strong>Practical Examples</strong>: Provided a step-by-step scenario to illustrate the concepts.</li>
+<li><strong>Accessibility Considerations</strong>: Acknowledged potential challenges and proposed solutions.</li>
+</ul>
+<hr>
+<p>By embracing these technologies, we lay the groundwork for a system that is not only efficient but also fair and inclusive. Our technical foundations enable us to build a future where every action is accountable, every voice can be heard, and every person has access to the resources they need.</p>]]></content>
   </entry>
   <entry>
     <title>Towards a Generic Methodology for Sandbox Escape: Part 12: Funding the Vision</title>
