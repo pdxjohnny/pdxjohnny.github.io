@@ -7,7 +7,7 @@ subtitle = "🪬 Decentralized Trust Fall 🪬"
 
 ![the-glories-of-mary](https://github.com/user-attachments/assets/f753689a-8956-426d-886b-1f9d6ac86876)
 
-> TODO align to Open Religion Spec v1.0.0. Ideas are meant to be free (public domain) for iteration by whomever. Fork and commit. Just some thoughts on potential Hail Mary passes to change a broken system.
+> TODO align to Open Religion Spec v1.0.0. Ideas are meant to be free (public domain) for iteration by whomever. Fork and commit. Just some thoughts on potential Hail Mary passes to change a broken system https://www.essene.com/GospelOfPeace/
 
 🇺🇸🪬 GOD BLESS J.F.K. FEAR NOTHING. https://www.jfklibrary.org/archives/other-resources/john-f-kennedy-speeches/american-newspaper-publishers-association-19610427 🪬🇺🇸
 
