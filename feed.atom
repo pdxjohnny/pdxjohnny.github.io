@@ -9,7 +9,7 @@
   </author>
   <icon>https://pdxjohnny.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://pdxjohnny.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2024-10-11T03:17:10Z</updated>
+  <updated>2024-10-11T08:17:52Z</updated>
   <link rel="self" type="application/atom+xml" href="https://pdxjohnny.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://pdxjohnny.github.io/" hreflang="en-us"/>
   <entry>
@@ -22,6 +22,41 @@
     <updated>2024-10-08T07:35:00Z</updated>
     <published>2024-10-06T08:15:00Z</published>
     <content type="html"><![CDATA[<p><img src="https://github.com/user-attachments/assets/f753689a-8956-426d-886b-1f9d6ac86876" alt="the-glories-of-mary"></p>
+<h2 id="tldr">TL;DR;</h2>
+<ul>
+<li>On With His Head
+<ul>
+<li>No More Painting the Roses Red</li>
+<li>John 1:23, Matthew 3</li>
+</ul>
+</li>
+<li>If it's not obvious by now the game is write God stuff in software language. Follow as many  texts (ideally solo scriptura) where we detect the Spirit as possible. Take a page from Luther and his <a href="https://www.jstor.org/stable/23768389">literacy campaign</a> and post them theses on the Internet in a way others can read and modify 🇩🇰
+<ul>
+<li>✅ Luther: Enable Read Permissions
+<ul>
+<li>
+<blockquote>
+<p>Antecedants and consequences of typography and 16th century Protestant educational reform are outlined to show how curricular innovation led to a bureaucratic discourse of social control. It is argued that compulsory schooling for mass literacy gave rise to the institutionalization of childhood, and to state controlled techniques of normalization and surveillance. Implications for the histories of curriculum and administration are noted.</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>✅ Open Source: Enable Write Permissions</li>
+<li>⏳ Virtual Branches (Alice’s Trains of Thought): Federate ideas aligned with your friends policies (their religion specs) to create virtual branches representing each ad-hoc formed groups per context Values and Strategic Plans and Principles. The these Open Religion specs via $USER/religion/MD -&gt; YAML. Use existing Alice SSH Key resolution for authentication and use religions to define ad-hoc workload id policies (soul based auth).</li>
+</ul>
+</li>
+<li>Writing can we purely for fun and play. If you have thoughts, why so serious? Riddle us 🎩🫖 with commits if thou will share yours: <a href="https://github.com/new?template_name=religion&amp;template_owner=pdxjohnny">template repo</a>
+<ul>
+<li>The approach we wish to take is to root cause ingrained issues (just like patching a foundation model). Tackling them as humanity vs. the problem. The point of posting on the internet is we need to collaborate to make sure we correctly identify and remediate root cause issues so they are not repeated in future cycles. Just as an FYI for others to do self-organized religion. The bet is if we all did self-organized religion + transparency services which will arise anyway we’ll find out over time that we all agree on the same common best practices after all we’ve just been unknowingly debating semantics (greek and judeo christian archetypes are used in these docs as examples)</li>
+<li>Discussion threads
+<ul>
+<li><a href="https://github.com/pdxjohnny/religion/discussions/1">Money</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="cainites">Cainites</h2>
 <blockquote>
 <p>TODO align to Open Religion Spec v1.0.0. Ideas are meant to be free (public domain) for iteration by whomever. Fork and commit. Just some thoughts on potential Hail Mary passes to change a broken system <a href="https://www.essene.com/GospelOfPeace/">https://www.essene.com/GospelOfPeace/</a> If you don't align with parts of this, please feel free to put your free will to use and submit a pull request, example: <a href="https://github.com/pdxjohnny/pdxjohnny.github.io/pull/7"><code>peace()</code></a>.</p>
 </blockquote>
