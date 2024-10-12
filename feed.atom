@@ -9,7 +9,7 @@
   </author>
   <icon>https://pdxjohnny.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://pdxjohnny.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2024-10-11T08:54:54Z</updated>
+  <updated>2024-10-12T05:43:19Z</updated>
   <link rel="self" type="application/atom+xml" href="https://pdxjohnny.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://pdxjohnny.github.io/" hreflang="en-us"/>
   <entry>
@@ -22,14 +22,11 @@
     <updated>2024-10-08T07:35:00Z</updated>
     <published>2024-10-06T08:15:00Z</published>
     <content type="html"><![CDATA[<p><img src="https://github.com/user-attachments/assets/f753689a-8956-426d-886b-1f9d6ac86876" alt="the-glories-of-mary"></p>
+<blockquote>
+<p>🕊️✌️☮️ A message of Peace and Unity 🌏🌍🌎</p>
+</blockquote>
 <h2 id="tldr">TL;DR;</h2>
 <ul>
-<li>On With His Head
-<ul>
-<li>No More Painting the Roses Red</li>
-<li>John 1:23, Matthew 3</li>
-</ul>
-</li>
 <li>If it's not obvious by now the game is write God stuff in software language. Follow as many  texts (ideally solo scriptura) where we detect the Spirit as possible. Take a page from Luther and his <a href="https://www.jstor.org/stable/23768389">literacy campaign</a> and post them theses on the Internet in a way others can read and modify 🇩🇰
 <ul>
 <li>✅ Luther: Enable Read Permissions
@@ -41,7 +38,11 @@
 </li>
 </ul>
 </li>
-<li>✅ Open Source: Enable Write Permissions</li>
+<li>✅ Open Source: Enable Write Permissions
+<ul>
+<li>Everyone post their beliefs so their respective AI can follow your own values system. Ideally this remediates issues which have arised due to people convincing other people of things that are unideal or may have been oops behavior ingrained over time from &quot;the way its always been done&quot;</li>
+</ul>
+</li>
 <li>⏳ Virtual Branches (Alice’s Trains of Thought): Federate ideas aligned with your friends policies (their religion specs) to create virtual branches representing each ad-hoc formed groups per context Values and Strategic Plans and Principles. The these Open Religion specs via $USER/religion/MD -&gt; YAML. Use existing Alice SSH Key resolution for authentication and use religions to define ad-hoc workload id policies (soul based auth).</li>
 </ul>
 </li>
