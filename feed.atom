@@ -9,7 +9,7 @@
   </author>
   <icon>https://pdxjohnny.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://pdxjohnny.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2024-10-13T01:19:44Z</updated>
+  <updated>2024-10-13T01:23:07Z</updated>
   <link rel="self" type="application/atom+xml" href="https://pdxjohnny.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://pdxjohnny.github.io/" hreflang="en-us"/>
   <entry>
@@ -21,30 +21,17 @@
     <id>https://pdxjohnny.github.io/chadig/</id>
     <updated>2024-10-08T07:35:00Z</updated>
     <published>2024-10-06T08:15:00Z</published>
-    <content type="html"><![CDATA[<blockquote>
-<p>BEGIN NON-RIDDLE</p>
-<p>🕊️✌️☮️ A message of Peace and Unity 🌏🌍🌎</p>
+    <content type="html"><![CDATA[<p>🕊️✌️☮️ A message of Peace and Unity 🌏🌍🌎</p>
 <p>This is a call for you to transparently please think on and write your own values and strategic plans and principles. “For years, religion did nothing but divide” let’s use it to unite.</p>
 <p>When you ask your AI. Is XYZ chadig? (question or affermative form of yadig) It uses your spec to say <a href="https://github.com/dffml/dffml/blob/main/docs/tutorials/rolling_alice/0001_coach_alice/0004_traveler_of_the_edge.md">chadig or nahdig</a>.</p>
-<p>END NON-RIDDLE</p>
-</blockquote>
-<p><img src="https://github.com/user-attachments/assets/f753689a-8956-426d-886b-1f9d6ac86876" alt="the-glories-of-mary"></p>
 <h2 id="tldr">TL;DR;</h2>
 <ul>
-<li>If it's not obvious by now the game is write God stuff in software language. Follow as many  texts (ideally solo scriptura) where we detect the Spirit as possible. Take a page from Luther and his <a href="https://www.jstor.org/stable/23768389">literacy campaign</a> and post them theses on the Internet in a way others can read and modify 🇩🇰
+<li>If it's not obvious by now the game is write moral values in software language. Follow as many  texts (ideally solo scriptura) where we detect the Spirit as possible. Take a page from Luther and his <a href="https://www.jstor.org/stable/23768389">literacy campaign</a> and post them theses on the Internet in a way others can read and modify 🇩🇰 Make sure you read the coptic gosples, the gosple of peace, and the bible.
 <ul>
-<li>✅ Luther: Enable Read Permissions
-<ul>
-<li>
-<blockquote>
-<p>Antecedants and consequences of typography and 16th century Protestant educational reform are outlined to show how curricular innovation led to a bureaucratic discourse of social control. It is argued that compulsory schooling for mass literacy gave rise to the institutionalization of childhood, and to state controlled techniques of normalization and surveillance. Implications for the histories of curriculum and administration are noted.</p>
-</blockquote>
-</li>
-</ul>
-</li>
+<li>✅ Luther: Enable Read Permissions</li>
 <li>✅ Open Source: Enable Write Permissions
 <ul>
-<li>Everyone post their beliefs so their respective AI can follow your own values system. Ideally this remediates issues which have arised due to people convincing other people of things that are unideal or may have been oops behavior ingrained over time from &quot;the way its always been done&quot;</li>
+<li>Everyone post their thoughts on what brings good (values) so their respective AI can follow your own values system and guide them ti do good. Ideally this remediates issues which have arised due to people convincing other people of things that are unideal or may have been oops behavior ingrained over time from &quot;the way its always been done&quot;</li>
 </ul>
 </li>
 <li>⏳ Virtual Branches (Alice’s Trains of Thought): Federate ideas aligned with your friends policies (their religion specs) to create virtual branches representing each ad-hoc formed groups per context Values and Strategic Plans and Principles. The these Open Religion specs via $USER/religion/MD -&gt; YAML. Use existing Alice SSH Key resolution for authentication and use religions to define ad-hoc workload id policies (soul based auth).
