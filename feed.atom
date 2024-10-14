@@ -9,7 +9,7 @@
   </author>
   <icon>https://pdxjohnny.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://pdxjohnny.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2024-10-14T20:15:48Z</updated>
+  <updated>2024-10-14T20:17:43Z</updated>
   <link rel="self" type="application/atom+xml" href="https://pdxjohnny.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://pdxjohnny.github.io/" hreflang="en-us"/>
   <entry>
@@ -34,7 +34,7 @@ A message of Peace and Unity
 <li>✅ Luther: Enable Read Permissions</li>
 <li>✅ Open Source: Enable Write Permissions
 <ul>
-<li>Everyone post their thoughts on what brings good (values) so their respective AI can follow your own values system and guide them ti do good. Ideally this remediates issues which have arised due to people convincing other people of things that are unideal or may have been oops behavior ingrained over time from &quot;the way its always been done&quot;</li>
+<li>Everyone post their thoughts on what brings good (values) so their respective AI can follow your own values system and guide them ti do good. Ideally this remediates issues which have arose due to people convincing other people of things that are unideal or may have been oops behavior ingrained over time from &quot;the way its always been done&quot;</li>
 </ul>
 </li>
 <li>⏳ Virtual Branches (Alice’s Trains of Thought): Federate ideas aligned with your friends policies (their values specs) to create virtual branches representing each ad-hoc formed groups per context Values and Strategic Plans and Principles. The these Open Religion specs via <code>$USER/chadig|nahdig/README.md -&gt; CI/CD -&gt; CBOR transparent statement</code>. Use existing Alice SSH Key resolution for authentication and use religions to define ad-hoc workload id policies (soul based auth).
@@ -6747,7 +6747,7 @@ ssh_alice<span class="p">;</span> sleep 1<span class="p">;</span> ssh_alice
 </li>
 <li>Henk Birkholz gives example of VEX and different parties saying something is a vuln or not within different contexts, USGov says no, GreenPeace says yes.
 <ul>
-<li>RDFStart is equivilant to labeled property graph, let's you put nodes on the edges</li>
+<li>RDFStart is equivalent to labeled property graph, let's you put nodes on the edges</li>
 </ul>
 </li>
 <li>RATs versifiers use this.</li>
@@ -7050,7 +7050,7 @@ ssh_alice<span class="p">;</span> sleep 1<span class="p">;</span> ssh_alice
 <li>We can create a receipt for the registration policy each time it is updated
 <ul>
 <li>Anytime we insert, we can embed into the receipt the entry ID of the receipt of the registration policy evaluated against</li>
-<li>Verifier can then keep the receipt for the claim in question as well as the receipt for the registration policy, if it want's to verify later, it can use both receipts.</li>
+<li>Verifier can then keep the receipt for the claim in question as well as the receipt for the registration policy, if it wants to verify later, it can use both receipts.</li>
 </ul>
 </li>
 <li>We think we can make the entry ID automatic and extracted from the transparent statement
@@ -7387,7 +7387,7 @@ ssh_alice<span class="p">;</span> sleep 1<span class="p">;</span> ssh_alice
 </li>
 <li>Orie: The minimal activity the notary would do is check the issuer, ensure that the issuer has key material that we can verify
 <ul>
-<li>An advanced notary with domain expertise could look inside the payload, as descrition of TS and reg policy</li>
+<li>An advanced notary with domain expertise could look inside the payload, as description of TS and reg policy</li>
 </ul>
 </li>
 <li>Cedric: You know who to blame, you can make choices based off who you know</li>
@@ -7474,7 +7474,7 @@ ssh_alice<span class="p">;</span> sleep 1<span class="p">;</span> ssh_alice
 <li>OWASP WG is not chartered to this scope
 <ul>
 <li>Machine identity in supply chains large legal entities like EU itself as â€œuserâ€</li>
-<li>Cant assume users have hosted endpoints</li>
+<li>Can't assume users have hosted endpoints</li>
 <li>No <code>.well-known</code> paths exist yet for three party, SD-JWT VC oauth IETF WG has one in draft.</li>
 </ul>
 </li>
@@ -7907,7 +7907,7 @@ python -m cbor2.tool claim.receipt.cbor
 </li>
 <li>Correctness
 <ul>
-<li>When a user looks up a key, result is the same that any other user seraching for the same key would have seen</li>
+<li>When a user looks up a key, result is the same that any other user searching for the same key would have seen</li>
 <li>When a user modifies a key, other users will be notified when it's modified</li>
 </ul>
 </li>
@@ -7995,7 +7995,7 @@ python -m cbor2.tool claim.receipt.cbor
 <ul>
 <li>Updated ADR 7: <a href="https://github.com/intel/dffml/blob/alice/docs/arch/0007-A-GitHub-Public-Bey-and-TPM-Based-Supply-Chain-Security-Mitigation-Option.rst#a-github-public-key-and-tpm-based-supply-chain-security-mitigation-option">A GitHub Public Key and TPM Based Supply Chain Security Mitigation Option</a>
 <ul>
-<li>With Federated forges (long term target in WASM environment) we can leverage this ssh method ideally with an attested Transparency Service then we can get a receipt, issused with an ssh ECDSA-384 key.</li>
+<li>With Federated forges (long term target in WASM environment) we can leverage this ssh method ideally with an attested Transparency Service then we can get a receipt, issued with an ssh ECDSA-384 key.</li>
 <li>CWT issuer is the keys endpoint.</li>
 <li>We can use <a href="https://github.com/tpm2-software/tpm2-pkcs11">https://github.com/tpm2-software/tpm2-pkcs11</a> to bind the keys to a TPM owned by the developer.</li>
 </ul>
@@ -8222,7 +8222,7 @@ ssh-keygen -q -f /dev/stdout -t ecdsa -b <span class="m">384</span> -N <span cla
 </ul>
 </li>
 <li>End user can decide what gets read or written</li>
-<li>Allow for serivces, background jobs, to do lots of things</li>
+<li>Allow for services, background jobs, to do lots of things</li>
 <li>Working on ucan spec
 <ul>
 <li>Ned Smith mentioned it would be good to have CWTs involved</li>
@@ -8518,7 +8518,7 @@ app store or something like that.</p>
 <p>If you can afford it. Buy the latest versions of whatever devices you use.</p>
 <ul>
 <li>This is particularly important if you are concerned your device might
-be physically acessable by someone you don't trust.</li>
+be physically accessible by someone you don't trust.</li>
 </ul>
 </li>
 </ul>
@@ -8530,7 +8530,7 @@ be physically acessable by someone you don't trust.</li>
 <li>
 <p>You should always choose ways of communicating that are encrypted. You do
 not know what information, no matter how inconsequentiall it seems to you,
-might be of use to comprimise the security of seemingly unrelated areas.</p>
+might be of use to compromise the security of seemingly unrelated areas.</p>
 </li>
 <li>
 <p>Communicating using encryption means that there has been some control placed
@@ -8602,7 +8602,7 @@ your devices.</p>
 best thing you can do to stop them from getting into it. Make sure it is off
 before interacting with them.</p>
 <h2 id="governments---three-letter-agencies">Governments - Three Letter Agencies</h2>
-<p>Using open source software is generally a good idea here. With Open Source, even if you dont know how to program, someone who does has looked at the code and you'd probably be able to find out through minimal searching if anyone has found any reason not to trust the open source project you're considering using. With closed source stuff, we usually only find out if it's doing something nefarious if a security researcher got bored in their free time and tried to hack a non-open source peice of software, which happens less often.</p>
+<p>Using open source software is generally a good idea here. With Open Source, even if you dont know how to program, someone who does has looked at the code and you'd probably be able to find out through minimal searching if anyone has found any reason not to trust the open source project you're considering using. With closed source stuff, we usually only find out if it's doing something nefarious if a security researcher got bored in their free time and tried to hack a non-open source piece of software, which happens less often.</p>
 <p>Related to the choice of using open source applications: <a href="https://www.vice.com/amp/en/article/akgkwj/operation-trojan-shield-anom-fbi-secret-phone-network">https://www.vice.com/amp/en/article/akgkwj/operation-trojan-shield-anom-fbi-secret-phone-network</a></p>
 <h1 id="rational">Rational</h1>
 <p>Let's go into detail on why the above guidance holds true broad spectrum.</p>
@@ -8630,7 +8630,7 @@ made of hardware components. The product lines have versions, the components
 within those products also have versions. When you buy the latest version of
 a device, you're doing an update of your hardware. Hardware vulnerabilities
 usually a concern when someone might have physical access to your device.
-Typical examples of this include airport securty, police, theives, abusive
+Typical examples of this include airport security, police, thieves, abusive
 partners, etc.</li>
 </ul>
 </li>
@@ -8643,7 +8643,7 @@ partners, etc.</li>
 <li>
 <p>You should always choose ways of communicating that are encrypted. You do
 not know what information, no matter how inconsequentiall it seems to you,
-might be of use to comprimise the security of seemingly unrelated areas.</p>
+might be of use to compromise the security of seemingly unrelated areas.</p>
 </li>
 <li>
 <p>Communicating using encryption means that there has been some control placed
@@ -8879,7 +8879,7 @@ which calls setState... and causes an infinite loop effectively.</p>
 <p>Sealed boxes, anonymously encrypt something using a public key</p>
 <p><a href="https://libsodium.gitbook.io/doc/public-key_cryptography/sealed_boxes">https://libsodium.gitbook.io/doc/public-key_cryptography/sealed_boxes</a></p>
 <h1 id="2021-02-17">2021-02-17</h1>
-<p>Regular experssion builder helper</p>
+<p>Regular expression builder helper</p>
 <p><a href="https://regex101.com/">https://regex101.com/</a></p>
 <h1 id="2021-02-27">2021-02-27</h1>
 <p>Inspect memory of running process</p>
@@ -8970,10 +8970,10 @@ using the system, because not all programs use utmp logging.</p>
 <ul>
 <li>Time of day</li>
 <li>Random number generator</li>
-<li>Anything in the module call platfrom is supposed to be replaced by acctual platfrom or hardware code</li>
+<li>Anything in the module call platform is supposed to be replaced by actual platform or hardware code</li>
 </ul>
 </li>
-<li>SImulator peice
+<li>SImulator piece
 <ul>
 <li>TCP/IP interface to talk to the TPM</li>
 </ul>
@@ -8985,12 +8985,12 @@ using the system, because not all programs use utmp logging.</p>
 <ul>
 <li>TPM2-TSS
 <ul>
-<li>SAPI (shouldn't be used people aren't gonig to use it much)</li>
+<li>SAPI (shouldn't be used people aren't going to use it much)</li>
 <li>ESAPI Full control but encrypted. If you want full low level control but want to do it with encryption</li>
-<li>FAPI high level automatatic verifyed sessions with TPM and key storage</li>
+<li>FAPI high level automatatic verified sessions with TPM and key storage</li>
 <li>RcDecode Return code to error string (strerror for TPM2)</li>
 <li>MU Marshalling and unmarshaling library</li>
-<li>TctiLdr They are similar to a network layer in that they move bytes to and from the TPM over an abitrary interface. Could talk to simulator, or /dev/tpm0</li>
+<li>TctiLdr They are similar to a network layer in that they move bytes to and from the TPM over an arbitrary interface. Could talk to simulator, or /dev/tpm0</li>
 </ul>
 </li>
 <li>pytss
@@ -9003,7 +9003,7 @@ using the system, because not all programs use utmp logging.</p>
 <li>Can take dictionaries</li>
 <li>Can take subclass types directly</li>
 <li>Copy constructors work</li>
-<li>Comparision with string, euqivilent Python types, work</li>
+<li>Comparison with string, euqivilent Python types, work</li>
 </ul>
 </li>
 <li>tpm2-tools -G strings work
@@ -9027,7 +9027,7 @@ using the system, because not all programs use utmp logging.</p>
 <li>Exceptions run return code thorugh RcDecode for error message
 <ul>
 <li><code>TSS2_Exception</code></li>
-<li>Handle, parmeter, session, and return code are provided</li>
+<li>Handle, parameter, session, and return code are provided</li>
 </ul>
 </li>
 <li>ESAPI
@@ -9171,7 +9171,7 @@ which you installed the packages into.</p>
 environment, you can install them to your user site-packages.</p>
 <p>With a recent version of pip installed, Python will install to your <code>--user</code>
 location even if you forget to specify. Or you can pass <code>--user</code> to be
-explict about it.</p>
+explicit about it.</p>
 <pre><code class="language-console" data-lang="console">$ python3 -m pip install --user --upgrade dffml
 </code></pre><h2 id="async-def-and-await"><code>async def</code> and <code>await</code></h2>
 <p><code>await</code> is a keyword which means &quot;give me the return value <em>when it's ready</em>&quot;.
@@ -9205,7 +9205,7 @@ it is stuck waiting on another event.</p>
 
 <span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&#34;__main__&#34;</span><span class="p">:</span>
     <span class="n">main</span><span class="p">()</span>
-</code></pre></div><p>If you pass <code>-i</code> you dump to a <em>fresh</em> intepreter session</p>
+</code></pre></div><p>If you pass <code>-i</code> you dump to a <em>fresh</em> interpreter session</p>
 <pre><code class="language-console" data-lang="console">$ python -i a.py
 Traceback (most recent call last):
   File &quot;a.py&quot;, line 10, in &lt;module&gt;
@@ -9516,7 +9516,7 @@ save the file as the filename you'll need <code>-O</code> (which if you put it w
 <pre><code class="language-console" data-lang="console">$ curl -LO 'https://example.com/file.tar.gz'
 </code></pre><blockquote>
 <p>Sometimes one is installed on your system and the other isn't. Try the other
-one if you're seeing something allong the lines of &quot;Command not found&quot;</p>
+one if you're seeing something along the lines of &quot;Command not found&quot;</p>
 </blockquote>
 <h3 id="extract-zip-and-tar-files">Extract zip and tar files?</h3>
 <p>When you download software it usually in a <code>.tar</code> or <code>.zip</code> file.</p>
@@ -9577,7 +9577,7 @@ only one match left it will fill the rest of the word in.</p>
     <content type="html"><![CDATA[<p>Hey you know JavaScript, that thing everyone loves and hates.</p>
 <p>Well chances are you've written some of it. And you don't understand what these
 bullshit CORS messages are in the console when you try to make a request to a
-service hosted on a diferent domain or port than the one your webpage is served
+service hosted on a different domain or port than the one your webpage is served
 from.</p>
 <p>CORS (Cross Origin Resource Sharing) is a security feature which makes it so
 that websites can't send request to other websites without the permission of the
@@ -9643,7 +9643,7 @@ if this JavaScript is allowed to make a <code>POST</code> request to the server.
 <li><code>OPTIONS</code>
 <ul>
 <li>Since the request is for the <code>OPTIONS</code> method. We need to make sure whatever
-server we're using, or library we're using to make a webserver, will repond
+server we're using, or library we're using to make a webserver, will respond
 to <code>OPTIONS</code> requests on the URL requested.</li>
 </ul>
 </li>
@@ -9835,9 +9835,9 @@ make modules_install -j <span class="k">$(($(</span>nproc<span class="k">)</span
 <p>Instead of doing a regular chroot use <code>systemd-nspawn</code> which gives you a more fully featured chroot.</p>
 <p><a href="https://wiki.archlinux.org/index.php/Systemd-nspawn">https://wiki.archlinux.org/index.php/Systemd-nspawn</a></p>
 <h2 id="debugging-with-gdb">Debugging With GDB</h2>
-<p>If you are lucky enough to be working on something thats in a VM you can get
+<p>If you are lucky enough to be working on something that's in a VM you can get
 GDB working!</p>
-<p>You need to run the kernel without KASLR (on the cmdline thats <code>nokaslr</code>).</p>
+<p>You need to run the kernel without KASLR (on the cmdline that's <code>nokaslr</code>).</p>
 <blockquote>
 <p>If you don't disable KASLR gdb can't set breakpoints or display the source to you</p>
 </blockquote>
@@ -9919,7 +9919,7 @@ working fine for someone for X amount of long time. As such, you need to
 be convincing for why your change should be accepted! Make your coverletter
 and commit messages very detailed. The kernel is a big place. It may have
 been a long time since someone reading your patch series has looked at the
-place you're working. Be courtious and remind them of all the moving peices
+place you're working. Be courtious and remind them of all the moving pieces
 involved in what you're doing, and why and how you're changing them.</p>
 <h3 id="etiquette">Etiquette</h3>
 <ul>
@@ -9992,7 +9992,7 @@ crw-rw-rw- 1 root kvm 10, 232 Jul 22 12:10 /dev/kvm
 <pre><code>  -netdev user,id=mynet0 \
   -device virtio-net-pci,netdev=mynet0
 </code></pre><p>You can also do what's known as &quot;bridged&quot; networking. It can be a bit of a mess
-though. It's covered in the main QEMU documenation at the top.</p>
+though. It's covered in the main QEMU documentation at the top.</p>
 <blockquote>
 <p>TODO Cover bridged networking</p>
 </blockquote>
@@ -10125,7 +10125,7 @@ is a great way to do it. Since it's cross platform. You can even
 play Windows games on Linux using Lutris and network them with
 Wireguard to get Windows and Linux machines playing together.</p>
 <h2 id="checking-if-you-have-it">Checking If You Have It</h2>
-<p>To check if you're Linux distro alreay has wireguard support,
+<p>To check if you're Linux distro already has wireguard support,
 look in the modules directory.</p>
 <blockquote>
 <p>My version at the moment is <code>5.6.4-152.current</code>, yours will
@@ -10155,7 +10155,7 @@ kernel module as seen in the
 </code></pre><p>Check <code>dmesg</code>, if you see complaints about missing symbols,
 you can recompile those modules that are missing, as seen
 under kernel requirements. You'll want to find out how your
-Linux distrobution recommends compiling the kernel. This is
+Linux distribution recommends compiling the kernel. This is
 because many of them have patches that your system won't
 work without added to the kernel. You might be able to run
 the kernel from kernel.org, but don't count on that.</p>
@@ -10198,11 +10198,11 @@ There are comments within it to explain everything.</p>
 <span class="c1"># the command with `wg pubkey` in the comment above PrivateKey</span>
 <span class="c1"># to get their public key. They then should share it with you</span>
 <span class="c1"># over some secure medium of communication, ideally end to</span>
-<span class="c1"># end encrypted. If it get&#39;s tampered with, your wireguard</span>
+<span class="c1"># end encrypted. If it gets tampered with, your wireguard</span>
 <span class="c1"># connection is no longer secure.</span>
 <span class="na">PublicKey</span> <span class="o">=</span> <span class="s">4QEX7I58pR5PaZNmDI2wmnsT/HvvFBkNc5wZJ00scXw==</span>
 <span class="c1"># You&#39;ll want to put the IP that the other machine will be</span>
-<span class="c1"># accessable at here. This is the value they have as Address</span>
+<span class="c1"># accessible at here. This is the value they have as Address</span>
 <span class="c1"># under the [Interface] section of their wg.conf</span>
 <span class="na">AllowedIPs</span> <span class="o">=</span> <span class="s">192.168.4.115/32</span>
 <span class="c1"># If the person has a server they&#39;re running wireguard on and</span>
@@ -10218,7 +10218,7 @@ There are comments within it to explain everything.</p>
 <span class="c1"># 25 seconds</span>
 <span class="na">PersistentKeepalive</span> <span class="o">=</span> <span class="s">25</span>
 
-<span class="c1"># Keep adding peers as you wish. At a minium you&#39;ll need to</span>
+<span class="c1"># Keep adding peers as you wish. At a minimum you&#39;ll need to</span>
 <span class="c1"># add their public key and their address</span>
 <span class="k">[Peer]</span>
 <span class="na">PublicKey</span> <span class="o">=</span> <span class="s">3StsslOTQlqMnd42UaKi9FdNu9GSTLi1WCaqwg8lkhc=</span>
@@ -10240,13 +10240,13 @@ change whenever you regenerate the private key and replace
 it in the config file.</p>
 <p>You should communicate with the other people you're trying
 to set up your new wireguard network with to make sure you
-all choose a differnet IP address for the line that has
+all choose a different IP address for the line that has
 <code>Address = </code>. On Windows you'll need to uncomment that line.
-In the <a href="#using-it">Using It</a> secion there will be a <code>setup.sh</code>
+In the <a href="#using-it">Using It</a> section there will be a <code>setup.sh</code>
 script, On Linux the script will parse the comment and use it
 as your IP address within the wireguard network, do not
 uncomment that line on Linux.</p>
-<p>You can parse your config file to get your choosen address
+<p>You can parse your config file to get your chosen address
 using the following command.</p>
 <pre><code class="language-console" data-lang="console">$ cat &quot;${conf}&quot;| grep 'Address = ' | sed -e 's/.* = //g' -e 's/\/24//g'
 192.168.4.4
@@ -10258,7 +10258,7 @@ of the other machines as follows</p>
 </code></pre></div><p>If you have the <code>ListenPort</code> exposed to the public internet,
 via port forwarding or via firewall rules (or both). Then the
 peer section for your machine in the config files of the other
-people in your netowrk will include the <code>Endpoint</code> and optionally
+people in your network will include the <code>Endpoint</code> and optionally
 the <code>PersistentKeepalive</code> properties.</p>
 <p>You can find your IP by running</p>
 <pre><code class="language-console" data-lang="console">$ curl -s -w '\n' https://canihazip.com/s
@@ -10271,7 +10271,7 @@ would then be the following.</p>
 <span class="na">Endpoint</span> <span class="o">=</span> <span class="s">24.21.101.158:60200</span>
 <span class="na">PersistentKeepalive</span> <span class="o">=</span> <span class="s">25</span>
 </code></pre></div><h2 id="using-it">Using It</h2>
-<p>If you're using wireguard-go you'll want to run it in a seperate
+<p>If you're using wireguard-go you'll want to run it in a separate
 terminal before running the <code>setup.sh</code> script. This command tells
 wireguard-go to create a new wireguard interface called wg0.</p>
 <pre><code class="language-console" data-lang="console">$ wireguard-go -f wg0
@@ -10691,7 +10691,7 @@ you got it.</p>
     <updated>2020-07-07T19:00:00Z</updated>
     <published>2020-07-07T19:00:00Z</published>
     <content type="html"><![CDATA[<h2 id="dos2unix-in-python">dos2unix in Python</h2>
-<p>Remove carrage returns from CRLF (carrage return, line feed: <code>\r\n</code>).</p>
+<p>Remove carriage returns from CRLF (carriage return, line feed: <code>\r\n</code>).</p>
 <pre><code class="language-console" data-lang="console">$ python -c 'import pathlib, sys; p = pathlib.Path(sys.argv[-1]); p.write_bytes(p.read_bytes().replace(b&quot;\r&quot;, b&quot;&quot;))' file.txt
 </code></pre><h2 id="get-list-of-available-versions">Get list of available versions</h2>
 <pre><code class="language-console" data-lang="console">$ python -m pip install dffml==
@@ -10823,7 +10823,7 @@ EOF
 </code></pre><h2 id="print-the-date-in-a-yyyy-mm-dd-hh-ss-format">Print the date in a YYYY-MM-DD-HH-SS format</h2>
 <pre><code class="language-console" data-lang="console">$ date &quot;+%Y-%m-%d-%H-%M&quot;
 2022-02-02-06-34
-</code></pre><h2 id="reproducable-archive-via-ssh">Reproducable archive via ssh</h2>
+</code></pre><h2 id="reproducible-archive-via-ssh">Reproducible archive via ssh</h2>
 <p>Source: <a href="https://reproducible-builds.org/docs/archives/">https://reproducible-builds.org/docs/archives/</a></p>
 <pre><code class="language-console" data-lang="console">$ tar -C /some/dir/with/stuff -c --sort=name --mtime=&quot;2015-10-21 00:00Z&quot; --owner=0 --group=0 --numeric-owner --pax-option=exthdr.name=%d/PaxHeaders/%f,delete=atime,delete=ctime myfile.within.some.dir.with.stuff.exe | sshpass -p &quot;$(python -m keyring get $USER password)&quot; ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null &quot;$USER@129.168.1.123&quot; python -c '
 import io
@@ -10882,7 +10882,7 @@ $ git diff | gh gist create -d $(unxz -d &lt; $(ls ~/asciinema/$(hostname)-* | t
 </code></pre><h2 id="file-transfer-with-progress">File transfer with progress</h2>
 <p>Machine sending file.</p>
 <pre><code class="language-console" data-lang="console">$ nc -Nlp 9999 &lt; filename
-</code></pre><p>Machine receiveing file.</p>
+</code></pre><p>Machine receiving file.</p>
 <pre><code class="language-console" data-lang="console">$ dd status=progress bs=1M if=&lt;(cat &lt; /dev/tcp/example.com/9999) of=/mnt/c/Users/$USER/Downloads/filename
 </code></pre><h2 id="work-on-one-branch-and-make-change-on-other-branch-push-to-github-and-run-ci">Work on one branch and make change on other branch push to github and run CI</h2>
 <pre><code class="language-console" data-lang="console">$ nodemon -e yml --exec &quot;clear; export branch=feedface; git branch -D $branch; git checkout upstream/main-test -b $branch; python -c 'print(\&quot;A\&quot; + (\&quot;R\&quot; * (2**8)))' &gt; ahoy-there-matey-its-me-file; git add . &amp;&amp; git commit -sam &quot;${branch}&quot; &amp;&amp; git push -d origin &quot;${branch}&quot;; git push -fu origin $(git status | head -n 1 | awk '{print $NF}') &amp;&amp; gh pr create --base main-test --title &quot;$branch&quot; -F /dev/null&quot;
@@ -10912,7 +10912,7 @@ $ gh run view --log $(gh run list | head -n 2 | tail -n 1 | awk '{print $(NF-2)}
 <pre><code class="language-console" data-lang="console">$ gh run rerun --failed $(gh run list | head -n 2 | tail -n 1 | awk '{print $(NF-2)}') &amp;&amp; sleep 1 &amp;&amp; gh run watch --exit-status -i 1 $(gh run list | head -n 2 | tail -n 1 | awk '{print $(NF-2)}') || gh run view --log $(gh run list | head -n 2 | tail -n 1 | awk '{print $(NF-2)}')
 </code></pre><h2 id="used-the-menu-button-on-the-keyboard-for-the-first-time-ever-today">Used the menu button on the keyboard for the first time ever today</h2>
 <p><a href="https://support.google.com/chrome/answer/10483214?hl=en">https://support.google.com/chrome/answer/10483214?hl=en</a></p>
-<h2 id="edit-a-file-only-if-autoformating-passes">Edit a file only if autoformating passes</h2>
+<h2 id="edit-a-file-only-if-autoformatting-passes">Edit a file only if autoformatting passes</h2>
 <p>Can be used to hand edit xxd as well if you wanted to</p>
 <pre><code class="language-console" data-lang="console">$ cp old-admin.json old-old-admin.json; cp ~/.local/admin.json old-admin.json &amp;&amp; python -m json.tool old-admin.json &gt; admin.json || cp old-admin.json admin.json &amp;&amp; cp admin.json staged.json &amp;&amp; vim staged.json &amp;&amp; python -m json.tool &lt; staged.json &gt; admin.json &amp;&amp; cp admin.json ~/.local/admin.json
 </code></pre><h2 id="quick-pop-shell-from-python">Quick pop shell from python</h2>
@@ -10946,7 +10946,7 @@ Collecting torch
                                  Dload  Upload   Total   Spent    Left  Speed
 100  740M  100  740M    0     0  85.1M      0  0:00:08  0:00:08 --:--:--  106M
 
-Verify the SHA appended to our downloaded URL from our inital command.
+Verify the SHA appended to our downloaded URL from our initial command.
 
 ```console
 $ sha256sum -c - &lt;&lt;&lt;'9b356aea223772cd754edb4d9ecf2a025909b8615a7668ac7d5130f86e7ec421  torch-1.12.1-cp39-cp39-manylinux1_x86_64.whl'
@@ -11144,7 +11144,7 @@ them side by side, have tabs, label them, etc.</li>
 <li><a href="https://nodemon.io/">nodemon</a>
 <ul>
 <li>This will change your life. Its a command line utility that will re-run
-a command when files with certain extentions change. You can use it to
+a command when files with certain extensions change. You can use it to
 re-compile (if applicable) and re-test whatever your working on every
 time you save a file! This will also introduce you to a massive reward
 feedback loop like none other. Have fun.</li>
@@ -11194,7 +11194,7 @@ feedback loop like none other. Have fun.</li>
 <li><a href="https://ffmpeg.org/">ffmpeg</a>
 <ul>
 <li>I use this to convert videos I've recorded into gifs to use in README's
-and documenation.</li>
+and documentation.</li>
 </ul>
 </li>
 </ul>
@@ -11223,11 +11223,11 @@ prefixed with a <code>.</code> are <em>hidden</em>.</p>
 <p>Here are mine: <a href="http://github.com/pdxjohnny/dotfiles">http://github.com/pdxjohnny/dotfiles</a></p>
 <h2 id="linux-distros">Linux distros</h2>
 <p>These days I stick mostly to the big three desktop distros, debian, ubuntu, and
-fedora. I used to run Solus on my personal, it's out of commision at the moment
+fedora. I used to run Solus on my personal, it's out of commission at the moment
 and I am waiting until Serpent OS releases <code>.iso</code> images to bring it back up
 again.</p>
 <p>I started using Fedora when I was doing the CR0/4 KVM work. Kristen and Rick told
-me that Fedora gaurentees that you'll be able to run the
+me that Fedora guarantees that you'll be able to run the
 <a href="./linux-kernel/#terminology">upstream kernel</a>. Unless you want to mess with
 building <code>.deb</code> files on ubuntu so that you have all their configs and patches,
 which sounds not fun to me, it's probably best to stick to a well supported distro
@@ -11366,9 +11366,9 @@ pip install --force-reinstall -U https://github.com/ytdl-org/youtube-dl/archive/
 <p>login tasks (<code>~./bashrc</code> run something with <code>&amp;</code> to background)</p>
 <ul>
 <li>
-<p>Check if everything in homedir is either tracked in git or explictly ignored</p>
+<p>Check if everything in homedir is either tracked in git or explicitly ignored</p>
 <ul>
-<li>notify-send or equivilent, easy bash pipe allowed triage</li>
+<li>notify-send or equivalent, easy bash pipe allowed triage</li>
 </ul>
 </li>
 </ul>
@@ -11390,7 +11390,7 @@ pip install --force-reinstall -U https://github.com/ytdl-org/youtube-dl/archive/
 containers? Well Clear Containers is the solution for you my friend. Here I am
 going to show you how to install and configure the Clear Containers runtime on
 your Arch Linux host.</p>
-<p>I have created to packages in AUR to assit you in building the packages you
+<p>I have created to packages in AUR to assist you in building the packages you
 need.</p>
 <h3 id="qemu-lite-package">qemu-lite package</h3>
 <p><a href="https://github.com/01org/qemu-lite">qemu-lite</a> provides virtualisation for Clear Containers. It's a fork of qemu
@@ -11427,7 +11427,7 @@ makepkg -cs
 # Then install
 sudo pacman -U cc-oci-runtime-2.1.0-1-x86_64.pkg.tar.xz
 </code></pre><h3 id="configuration">Configuration</h3>
-<p>Now we need to change how the docker deamon is run so that it knows about the
+<p>Now we need to change how the docker daemon is run so that it knows about the
 runtime he have just installed.</p>]]></content>
   </entry>
   <entry>
@@ -11501,7 +11501,7 @@ Rout = 100k
     <content type="html"><![CDATA[<p>This is just the markdown portion of set of files which can be found here:
 <a href="https://gist.github.com/pdxjohnny/3de9a9bdd38cacf3ea394207762f1002">https://gist.github.com/pdxjohnny/3de9a9bdd38cacf3ea394207762f1002</a></p>
 <p>This should get you up and running writing ARM assembly without hardware.</p>
-<p>Clone this the repo for this turtorial.</p>
+<p>Clone this the repo for this tutorial.</p>
 <pre><code>git clone https://gist.github.com/pdxjohnny/3de9a9bdd38cacf3ea394207762f1002 arm-qemu
 </code></pre><h2 id="dependencies">Dependencies</h2>
 <p>The first step is to install the necessary packages. These are the
@@ -11654,7 +11654,7 @@ timeout 1s ./arduino-cli config init --overwrite
 
     <span class="k">def</span> <span class="nf">setUp</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">qemu</span> <span class="o">=</span> <span class="n">start_qemu</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">BIOS</span><span class="p">)</span>
-        <span class="c1"># __enter__ is called at the begining of a `with` block. __exit__ is</span>
+        <span class="c1"># __enter__ is called at the beginning of a `with` block. __exit__ is</span>
         <span class="c1"># called at the end of a `with` block. By calling these functions</span>
         <span class="c1"># explicitly within setUp() and tearDown() we ensure a new VM is created</span>
         <span class="c1"># and destroyed each time.</span>
@@ -11728,8 +11728,8 @@ machine which at the time of writing is Linux 4.4ish. So we couldn't compile
 <div class="highlight"><pre class="chroma"><code class="language-c" data-lang="c"><span class="c1">// #define USE_BPF 1
 </span></code></pre></div><h2 id="step-5---verify">Step 5 - Verify</h2>
 <p>Before we push to the device make sure it has a chance of working. This means
-that it will be 32-bit staticly linked. For the edits we just made to the
-commit refernced at the top of this doc file reports the following.</p>
+that it will be 32-bit statically linked. For the edits we just made to the
+commit referenced at the top of this doc file reports the following.</p>
 <pre><code>file trinity
 trinity: ELF 32-bit LSB executable, Intel 80386, version 1 (GNU/Linux), statically linked, for GNU/Linux 2.6.32, BuildID[sha1]=e533cc2db1db19c044bdbfa566c72299df7eefc2, not stripped
 </code></pre><h2 id="step-6---push-and-run">Step 6 - Push and Run</h2>
@@ -11906,7 +11906,7 @@ git daemon --reuseaddr --base-path<span class="o">=</span><span class="nv">$PWD<
 <span class="c1"># PWD is faster than typing /tmp/demo</span>
 </code></pre></div><p>Great! The git server is up! We can look up what port it is running on, but
 if perhaps we were fuzzing something we didn't know we would have to find out.</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># Apparently netstat is depricated, so let&#39;s use ss</span>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># Apparently netstat is deprecated, so let&#39;s use ss</span>
 ss -ltnp <span class="p">|</span> grep git
 </code></pre></div><p>Alright its port 9418. In another shell go to the capture directory and start
 convo-capture.</p>
