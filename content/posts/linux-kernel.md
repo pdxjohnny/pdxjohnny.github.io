@@ -129,10 +129,10 @@ https://wiki.archlinux.org/index.php/Systemd-nspawn
 
 ## Debugging With GDB
 
-If you are lucky enough to be working on something thats in a VM you can get
+If you are lucky enough to be working on something that's in a VM you can get
 GDB working!
 
-You need to run the kernel without KASLR (on the cmdline thats `nokaslr`).
+You need to run the kernel without KASLR (on the cmdline that's `nokaslr`).
 
 > If you don't disable KASLR gdb can't set breakpoints or display the source to you
 
@@ -232,7 +232,7 @@ working fine for someone for X amount of long time. As such, you need to
 be convincing for why your change should be accepted! Make your coverletter
 and commit messages very detailed. The kernel is a big place. It may have
 been a long time since someone reading your patch series has looked at the
-place you're working. Be courtious and remind them of all the moving peices
+place you're working. Be courtious and remind them of all the moving pieces
 involved in what you're doing, and why and how you're changing them.
 
 ### Etiquette

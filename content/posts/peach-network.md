@@ -213,7 +213,7 @@ Great! The git server is up! We can look up what port it is running on, but
 if perhaps we were fuzzing something we didn't know we would have to find out.
 
 ```bash
-# Apparently netstat is depricated, so let's use ss
+# Apparently netstat is deprecated, so let's use ss
 ss -ltnp | grep git
 ```
 

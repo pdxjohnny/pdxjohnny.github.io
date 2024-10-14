@@ -30,15 +30,15 @@ we're trying to actively implement through
 involvement in efforts such as OpenSSF, Open/InnerSource Patterns, CI/CD / Distributed Compute, AI/ML (+ethics!), and Supply Chain Security.
 It's the pursuit of code that will write and maintain itself based off of a
 standard description of architecture, a universal blueprint. The open
-architecture is universal because it's intutive enough that anyone can begin using
+architecture is universal because it's intuitive enough that anyone can begin using
 it quickly after the correct way of communicating to that individual is
-established via some communication method (spoken lanaguage, visual of some kind,
+established via some communication method (spoken language, visual of some kind,
 text, etc.). This universal blueprint is an abstraction layer between
 descriptions of architecture within different domain specific representations.
 
 This universal blueprint (system context) is an integral parts of creating
-a shared language for meaning and intent between humans and an Artifical
-General Intelegence. The goal is to provide an architecture and implemenation
+a shared language for meaning and intent between humans and an Artificial
+General Intelligence. The goal is to provide an architecture and implementation
 for independent entities which act in acordence with guiding strategic
 plans/blueprints. This architecture must be safe and secure by default,
 scalable, and easily extenstible.
@@ -47,13 +47,13 @@ scalable, and easily extenstible.
 
 - CI/CD is where we learn how to run and deploy code: https://www.techtarget.com/searchsoftwarequality/CI-CD-pipelines-explained-Everything-you-need-to-know
 
-- Supply Chain Security is how we learn how to create a compute network sutiable for various edge deployment senarios: https://www.cisa.gov/resources-tools/resources/securing-software-supply-chain-recommended-practices-guide-suppliers-and
+- Supply Chain Security is how we learn how to create a compute network sutiable for various edge deployment scenarios: https://www.cisa.gov/resources-tools/resources/securing-software-supply-chain-recommended-practices-guide-suppliers-and
 
 The end goal is to create a software architect, Alice. She will consult
 on existing projects to provide analysis of their architectures and
 properties such as maintainability, provide guideance for developer
-workstream prioritization to achive strategic buisness goals, and
-write and maintian codebases herself, accepting contributions from
+workstream prioritization to achive strategic business goals, and
+write and maintain codebases herself, accepting contributions from
 external contributors.
 
 [Tutorial series: Rolling Alice](https://github.com/intel/dffml/tree/main/docs/tutorials/rolling_alice)
@@ -140,7 +140,7 @@ In conclusion, the paper proposes that the integration of anarchic principles wi
 
 Keywords: Open Architecture, AGI, Anarchic Principles, Collaboration, Decentralization, Mutual Aid, SCITT, Federation, Policy Engine, Collective Intelligence.
 
-Tie in open source and something along the lines of that open source is anarchy so we're programming an open source maintainer and so therefor it's anarchy in action or something like that
+Tie in open source and something along the lines of that open source is anarchy so we're programming an open source maintainer and so therefore it's anarchy in action or something like that
 
 Title: Open Source as Anarchy in Action: Reimagining AGI Development through the Lens of Open Architecture
 

@@ -25,7 +25,7 @@ Here's a list of things I need to to and the tools I use to do it
   - Testing
     - [nodemon](https://nodemon.io/)
       - This will change your life. Its a command line utility that will re-run
-        a command when files with certain extentions change. You can use it to
+        a command when files with certain extensions change. You can use it to
         re-compile (if applicable) and re-test whatever your working on every
         time you save a file! This will also introduce you to a massive reward
         feedback loop like none other. Have fun.
@@ -45,7 +45,7 @@ Here's a list of things I need to to and the tools I use to do it
       - I use this to record my screen, it's cross platform and open source
     - [ffmpeg](https://ffmpeg.org/)
       - I use this to convert videos I've recorded into gifs to use in README's
-        and documenation.
+        and documentation.
 - Meetings
   - [Google Meet](https://meet.google.com)
 - Email
@@ -63,12 +63,12 @@ Here are mine: http://github.com/pdxjohnny/dotfiles
 ## Linux distros
 
 These days I stick mostly to the big three desktop distros, debian, ubuntu, and
-fedora. I used to run Solus on my personal, it's out of commision at the moment
+fedora. I used to run Solus on my personal, it's out of commission at the moment
 and I am waiting until Serpent OS releases `.iso` images to bring it back up
 again.
 
 I started using Fedora when I was doing the CR0/4 KVM work. Kristen and Rick told
-me that Fedora gaurentees that you'll be able to run the
+me that Fedora guarantees that you'll be able to run the
 [upstream kernel](./linux-kernel/#terminology). Unless you want to mess with
 building `.deb` files on ubuntu so that you have all their configs and patches,
 which sounds not fun to me, it's probably best to stick to a well supported distro
@@ -218,6 +218,6 @@ pip install --force-reinstall -U https://github.com/ytdl-org/youtube-dl/archive/
 
   - login tasks (`~./bashrc` run something with `&` to background)
 
-    - Check if everything in homedir is either tracked in git or explictly ignored
+    - Check if everything in homedir is either tracked in git or explicitly ignored
 
-      - notify-send or equivilent, easy bash pipe allowed triage
+      - notify-send or equivalent, easy bash pipe allowed triage

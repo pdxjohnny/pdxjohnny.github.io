@@ -9,7 +9,7 @@ https://gist.github.com/pdxjohnny/3de9a9bdd38cacf3ea394207762f1002
 
 This should get you up and running writing ARM assembly without hardware.
 
-Clone this the repo for this turtorial.
+Clone this the repo for this tutorial.
 
 ```
 git clone https://gist.github.com/pdxjohnny/3de9a9bdd38cacf3ea394207762f1002 arm-qemu
@@ -206,7 +206,7 @@ class RunQEMU(unittest.TestCase):
 
     def setUp(self):
         self.qemu = start_qemu(self.BIOS)
-        # __enter__ is called at the begining of a `with` block. __exit__ is
+        # __enter__ is called at the beginning of a `with` block. __exit__ is
         # called at the end of a `with` block. By calling these functions
         # explicitly within setUp() and tearDown() we ensure a new VM is created
         # and destroyed each time.

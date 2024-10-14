@@ -67,7 +67,7 @@ environment, you can install them to your user site-packages.
 
 With a recent version of pip installed, Python will install to your `--user`
 location even if you forget to specify. Or you can pass `--user` to be
-explict about it.
+explicit about it.
 
 ```console
 $ python3 -m pip install --user --upgrade dffml
@@ -113,7 +113,7 @@ if __name__ == "__main__":
     main()
 ```
 
-If you pass `-i` you dump to a *fresh* intepreter session
+If you pass `-i` you dump to a *fresh* interpreter session
 
 ```console
 $ python -i a.py

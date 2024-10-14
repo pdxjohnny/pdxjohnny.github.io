@@ -9,7 +9,7 @@ Hey you know JavaScript, that thing everyone loves and hates.
 
 Well chances are you've written some of it. And you don't understand what these
 bullshit CORS messages are in the console when you try to make a request to a
-service hosted on a diferent domain or port than the one your webpage is served
+service hosted on a different domain or port than the one your webpage is served
 from.
 
 CORS (Cross Origin Resource Sharing) is a security feature which makes it so
@@ -88,7 +88,7 @@ There's a couple important parts to this.
 
 - `OPTIONS`
   - Since the request is for the `OPTIONS` method. We need to make sure whatever
-    server we're using, or library we're using to make a webserver, will repond
+    server we're using, or library we're using to make a webserver, will respond
     to `OPTIONS` requests on the URL requested.
 - `Access-Control-Request-Headers`
   - When the server responds to the `OPTIONS` request, it should include the

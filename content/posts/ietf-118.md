@@ -106,7 +106,7 @@ subtitle = "IETF 118 Notes"
   - John: What if we combined with receipts?
     - [2023-04-19 @pdxjohnny Engineering Logs](https://github.com/intel/dffml/blob/alice/docs/discussions/alice_engineering_comms/0243/reply_0000.md)
   - Henk Birkholz gives example of VEX and different parties saying something is a vuln or not within different contexts, USGov says no, GreenPeace says yes.
-    - RDFStart is equivilant to labeled property graph, let's you put nodes on the edges
+    - RDFStart is equivalent to labeled property graph, let's you put nodes on the edges
   - RATs versifiers use this.
   - Imagine we have an OSCAL component displayed by the React class, they both have the concept of a component
     - `https://oscal.org/Component(Component)`
@@ -282,7 +282,7 @@ $ npx swagger-cli bundle docs/openapi/openapi.yml -o docs/openapi/openapi.json -
     - https://github.com/ietf-wg-scitt/draft-ietf-scitt-architecture/issues/79#issuecomment-1767570492
   - We can create a receipt for the registration policy each time it is updated
     - Anytime we insert, we can embed into the receipt the entry ID of the receipt of the registration policy evaluated against
-    - Verifier can then keep the receipt for the claim in question as well as the receipt for the registration policy, if it want's to verify later, it can use both receipts.
+    - Verifier can then keep the receipt for the claim in question as well as the receipt for the registration policy, if it wants to verify later, it can use both receipts.
   - We think we can make the entry ID automatic and extracted from the transparent statement
     - Our idea from Saturday was to combine statement (aka claim) hashing with the abuse of a content type identifier, using `+` to add the hash
 - Orie - CBOR API
@@ -431,7 +431,7 @@ $ npx swagger-cli bundle docs/openapi/openapi.yml -o docs/openapi/openapi.json -
   - What did the receipt issuers do to ensure the tomato is fresh?
     - Why should we trust the notary? Are we sure they checked?
   - Orie: The minimal activity the notary would do is check the issuer, ensure that the issuer has key material that we can verify
-    - An advanced notary with domain expertise could look inside the payload, as descrition of TS and reg policy
+    - An advanced notary with domain expertise could look inside the payload, as description of TS and reg policy
   - Cedric: You know who to blame, you can make choices based off who you know
   - Ned: Compromise might be the type of check the receipt issuer did could be something that goes into the issuer claims
 - Peter: ETH using polyunomiocal commitment stuff, could be interesting
@@ -480,7 +480,7 @@ $ npx swagger-cli bundle docs/openapi/openapi.yml -o docs/openapi/openapi.json -
     - Three party model
   - OWASP WG is not chartered to this scope
     - Machine identity in supply chains large legal entities like EU itself as â€œuserâ€
-    - Cant assume users have hosted endpoints
+    - Can't assume users have hosted endpoints
     - No `.well-known` paths exist yet for three party, SD-JWT VC oauth IETF WG has one in draft.
 
 ![IMG_1463](https://github.com/intel/dffml/assets/5950433/5473b3c4-3a8d-43c4-9bb6-9fa7bd4fd064)
@@ -807,7 +807,7 @@ skopeo copy docker://localhost:5000/ssh_public_keys/pdxjohnny dir:/tmp/ssh_publi
     - When log operator is honest: Correctness Properties
     - We will have consistency properties when log operator behaves maliciously
   - Correctness
-    - When a user looks up a key, result is the same that any other user seraching for the same key would have seen
+    - When a user looks up a key, result is the same that any other user searching for the same key would have seen
     - When a user modifies a key, other users will be notified when it's modified
   - Consistency
     - When user looks up a key and the result is not the same results when another searching for a key would have see it will be detected
@@ -858,7 +858,7 @@ skopeo copy docker://localhost:5000/ssh_public_keys/pdxjohnny dir:/tmp/ssh_publi
 ## 2023-11-11 @pdxjohnny Engineering Logs
 
 - Updated ADR 7: [A GitHub Public Key and TPM Based Supply Chain Security Mitigation Option](https://github.com/intel/dffml/blob/alice/docs/arch/0007-A-GitHub-Public-Bey-and-TPM-Based-Supply-Chain-Security-Mitigation-Option.rst#a-github-public-key-and-tpm-based-supply-chain-security-mitigation-option)
-  - With Federated forges (long term target in WASM environment) we can leverage this ssh method ideally with an attested Transparency Service then we can get a receipt, issused with an ssh ECDSA-384 key.
+  - With Federated forges (long term target in WASM environment) we can leverage this ssh method ideally with an attested Transparency Service then we can get a receipt, issued with an ssh ECDSA-384 key.
   - CWT issuer is the keys endpoint.
   - We can use https://github.com/tpm2-software/tpm2-pkcs11 to bind the keys to a TPM owned by the developer.
 

@@ -15,7 +15,7 @@ Wireguard to get Windows and Linux machines playing together.
 
 ## Checking If You Have It
 
-To check if you're Linux distro alreay has wireguard support,
+To check if you're Linux distro already has wireguard support,
 look in the modules directory.
 
 > My version at the moment is `5.6.4-152.current`, yours will
@@ -60,7 +60,7 @@ $ sudo insmod wireguard-linux-compat/src/wireguard.ko
 Check `dmesg`, if you see complaints about missing symbols,
 you can recompile those modules that are missing, as seen
 under kernel requirements. You'll want to find out how your
-Linux distrobution recommends compiling the kernel. This is
+Linux distribution recommends compiling the kernel. This is
 because many of them have patches that your system won't
 work without added to the kernel. You might be able to run
 the kernel from kernel.org, but don't count on that.
@@ -107,11 +107,11 @@ PrivateKey = REPLACE_WITH_PRIVATE_KEY
 # the command with `wg pubkey` in the comment above PrivateKey
 # to get their public key. They then should share it with you
 # over some secure medium of communication, ideally end to
-# end encrypted. If it get's tampered with, your wireguard
+# end encrypted. If it gets tampered with, your wireguard
 # connection is no longer secure.
 PublicKey = 4QEX7I58pR5PaZNmDI2wmnsT/HvvFBkNc5wZJ00scXw==
 # You'll want to put the IP that the other machine will be
-# accessable at here. This is the value they have as Address
+# accessible at here. This is the value they have as Address
 # under the [Interface] section of their wg.conf
 AllowedIPs = 192.168.4.115/32
 # If the person has a server they're running wireguard on and
@@ -127,7 +127,7 @@ Endpoint = 76.115.24.198:43022
 # 25 seconds
 PersistentKeepalive = 25
 
-# Keep adding peers as you wish. At a minium you'll need to
+# Keep adding peers as you wish. At a minimum you'll need to
 # add their public key and their address
 [Peer]
 PublicKey = 3StsslOTQlqMnd42UaKi9FdNu9GSTLi1WCaqwg8lkhc=
@@ -162,14 +162,14 @@ it in the config file.
 
 You should communicate with the other people you're trying
 to set up your new wireguard network with to make sure you
-all choose a differnet IP address for the line that has
+all choose a different IP address for the line that has
 `Address = `. On Windows you'll need to uncomment that line.
-In the [Using It](#using-it) secion there will be a `setup.sh`
+In the [Using It](#using-it) section there will be a `setup.sh`
 script, On Linux the script will parse the comment and use it
 as your IP address within the wireguard network, do not
 uncomment that line on Linux.
 
-You can parse your config file to get your choosen address
+You can parse your config file to get your chosen address
 using the following command.
 
 ```console
@@ -189,7 +189,7 @@ AllowedIPs = 192.168.4.4/32
 If you have the `ListenPort` exposed to the public internet,
 via port forwarding or via firewall rules (or both). Then the
 peer section for your machine in the config files of the other
-people in your netowrk will include the `Endpoint` and optionally
+people in your network will include the `Endpoint` and optionally
 the `PersistentKeepalive` properties.
 
 You can find your IP by running
@@ -212,7 +212,7 @@ PersistentKeepalive = 25
 
 ## Using It
 
-If you're using wireguard-go you'll want to run it in a seperate
+If you're using wireguard-go you'll want to run it in a separate
 terminal before running the `setup.sh` script. This command tells
 wireguard-go to create a new wireguard interface called wg0.
 

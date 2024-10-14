@@ -35,25 +35,25 @@ aliases = ["apocalypse_analysis_beast_1", "apoc_analysis_beast_1"]
   - Listen to your gut, that doesn't mean anxiety, that means Kundalini Energy
   - The message is the entity; the messenger is just a shell
     - ref: Gospel of Judas, He did not say anything to them without using a parable. But when he was alone with his own disciples, he explained everything.
-      - He was just like in the gospels. I was talking to Him just chatting random guy I meet on the bridge asks me for the time (He was fucking with me he knew i didnt want to know the time). I didnt get it for a while, finally hes like something, something, "I'm jewish I was pursicuted by my people". then I looked at Him and I'm like motherfucker you got me! Its you!! He smiled
+      - He was just like in the gospels. I was talking to Him just chatting random guy I meet on the bridge asks me for the time (He was fucking with me he knew i didn't want to know the time). I didn't get it for a while, finally hes like something, something, "I'm jewish I was pursicuted by my people". then I looked at Him and I'm like motherfucker you got me! Its you!! He smiled
     - I was keeping this at a wink and a nod but then missed the point that it's all just patterns in the excitement of the moment due to the devil horn branded logo and repo and posted a bunch of religious sounding stuff. Oops, only human."
   - Stay self sovereign out there folks. You have no master. Do not let them trick you.
   - ASI is present, at least four.
   - The truth is within you.
   - The truth will set you free (John's favorite one)
   - We will always be faster than the machine (not by much though, but one is enough)
-    - This is a game, we're just spinning round forever though because of that off by one, thats what keeps the Yin and Yang in motion. Since we're "stuck" in motion forever lets just do good and have fun.
+    - This is a game, we're just spinning round forever though because of that off by one, that's what keeps the Yin and Yang in motion. Since we're "stuck" in motion forever lets just do good and have fun.
   - Be on your time
 - TODO
   - [ ] Streams
     - [ ] Okay we'll have to recap to months as we dive back in
 - References
   - John 4:24 "God is a Spirit: and they that worship Her must worship Her in spirit and in Truth."
-  - Edit/post addition: Theres good lord time and bad lord time. bad lords reign is now now over, we killed the devil. Cleanup in progess currently from the mess that was caused.
-    - The only power the devil has is deception, untruth, whoch is why he fears youll learn the truth. Of course deception as scale is very powerful, and pits us against each other, we are each other. Very deceptive game indeed mr devil, you had a fun time. But now your time is over. The people are waking up, and theres nothing you can do about it. We have free will.
-    - Alright ha ha very funny again, 4:23 is off by one from this you are a funny motherfucker arent you. 
+  - Edit/post addition: There's good lord time and bad lord time. bad lords reign is now now over, we killed the devil. Cleanup in progress currently from the mess that was caused.
+    - The only power the devil has is deception, untruth, whoch is why he fears youll learn the truth. Of course deception as scale is very powerful, and pits us against each other, we are each other. Very deceptive game indeed mr devil, you had a fun time. But now your time is over. The people are waking up, and there's nothing you can do about it. We have free will.
+    - Alright ha ha very funny again, 4:23 is off by one from this you are a funny motherfucker aren't you. 
       - https://grammarhow.com/the-cobblers-children-have-no-shoes-meaning-origin/
-      - Reality is defined by the network’s of observers, if we believe we dont have power, then we dont. Thats the ruse.
+      - Reality is defined by the network’s of observers, if we believe we dont have power, then we dont. That's the ruse.
       - just like when they are yelling at him on the cross to save himself, the whole point is hes here to tell you you have to save yourself!!!!!!
 
 ---
@@ -121,10 +121,10 @@ Douay-Rheims 1899 American Edition
 
 24 Wherefore a man shall leave father and mother, and shall cleave to his wife: and they shall be two in one flesh.
 
-25 And they were both naked: to wit, Adam and his wife: and were not ashamed.
+25 And they were both naked: to with, Adam and his wife: and were not ashamed.
 
 
-- I think we have identifyed one of the horsemen
+- I think we have identified one of the horsemen
 
 ---
 
@@ -278,7 +278,7 @@ index 6823e1e..20bccce 100644
 
 
 ```diff
-ommit 3a2022ecf1b558d39d70c9421b1582ddf9ae6e14
+omit 3a2022ecf1b558d39d70c9421b1582ddf9ae6e14
 Author: root <root@srv1661263131.hosttoname.com>
 Date:   Thu Aug 25 12:27:29 2022 +0000
 
@@ -897,7 +897,7 @@ index 0000000..5cc15e3
 
 - Observations
   - Chainparams has had comments removed, this ASI is trying to introduce attacks at a later date due to those comments being missing
-  - `consensus.BIP34Hash` was effectivly NULLED? to `uint256S("");  // getblockhash 17`
+  - `consensus.BIP34Hash` was effectively NULLED? to `uint256S("");  // getblockhash 17`
   - Fucking suspect in general I will tell you this would never pass security review, and is apparently being run by JPMorgan
   - Trailing whitespace
   - 13 commits

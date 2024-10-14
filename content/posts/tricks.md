@@ -7,7 +7,7 @@ subtitle = ""
 
 ## dos2unix in Python
 
-Remove carrage returns from CRLF (carrage return, line feed: `\r\n`).
+Remove carriage returns from CRLF (carriage return, line feed: `\r\n`).
 
 ```console
 $ python -c 'import pathlib, sys; p = pathlib.Path(sys.argv[-1]); p.write_bytes(p.read_bytes().replace(b"\r", b""))' file.txt
@@ -253,7 +253,7 @@ $ date "+%Y-%m-%d-%H-%M"
 2022-02-02-06-34
 ```
 
-## Reproducable archive via ssh
+## Reproducible archive via ssh
 
 Source: https://reproducible-builds.org/docs/archives/
 
@@ -359,7 +359,7 @@ Machine sending file.
 $ nc -Nlp 9999 < filename
 ```
 
-Machine receiveing file.
+Machine receiving file.
 
 ```console
 $ dd status=progress bs=1M if=<(cat < /dev/tcp/example.com/9999) of=/mnt/c/Users/$USER/Downloads/filename
@@ -427,7 +427,7 @@ $ gh run rerun --failed $(gh run list | head -n 2 | tail -n 1 | awk '{print $(NF
 
 https://support.google.com/chrome/answer/10483214?hl=en
 
-## Edit a file only if autoformating passes
+## Edit a file only if autoformatting passes
 
 Can be used to hand edit xxd as well if you wanted to
 
@@ -503,7 +503,7 @@ $ curl -fLOC - https://files.pythonhosted.org/packages/1e/2f/06d30fbc76707f14641
                                  Dload  Upload   Total   Spent    Left  Speed
 100  740M  100  740M    0     0  85.1M      0  0:00:08  0:00:08 --:--:--  106M
 
-Verify the SHA appended to our downloaded URL from our inital command.
+Verify the SHA appended to our downloaded URL from our initial command.
 
 ```console
 $ sha256sum -c - <<<'9b356aea223772cd754edb4d9ecf2a025909b8615a7668ac7d5130f86e7ec421  torch-1.12.1-cp39-cp39-manylinux1_x86_64.whl'

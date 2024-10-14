@@ -66,7 +66,7 @@ More detailed
 ```
 
 You can also do what's known as "bridged" networking. It can be a bit of a mess
-though. It's covered in the main QEMU documenation at the top.
+though. It's covered in the main QEMU documentation at the top.
 
 > TODO Cover bridged networking
 

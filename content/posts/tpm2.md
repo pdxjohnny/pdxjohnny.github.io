@@ -21,19 +21,19 @@ Things to be worried about when using Microsoft's Reference simulator:
   - module rpovded by platform manufacturer
     - Time of day
     - Random number generator
-    - Anything in the module call platfrom is supposed to be replaced by acctual platfrom or hardware code
-  - SImulator peice
+    - Anything in the module call platform is supposed to be replaced by actual platform or hardware code
+  - SImulator piece
     - TCP/IP interface to talk to the TPM
 
     
 - William (Bill) Roberts (notes from his presentation to 
   - TPM2-TSS
-    - SAPI (shouldn't be used people aren't gonig to use it much)
+    - SAPI (shouldn't be used people aren't going to use it much)
     - ESAPI Full control but encrypted. If you want full low level control but want to do it with encryption
-    - FAPI high level automatatic verifyed sessions with TPM and key storage
+    - FAPI high level automatatic verified sessions with TPM and key storage
     - RcDecode Return code to error string (strerror for TPM2)
     - MU Marshalling and unmarshaling library
-    - TctiLdr They are similar to a network layer in that they move bytes to and from the TPM over an abitrary interface. Could talk to simulator, or /dev/tpm0
+    - TctiLdr They are similar to a network layer in that they move bytes to and from the TPM over an arbitrary interface. Could talk to simulator, or /dev/tpm0
   - pytss
     - All based on cffi
     - Classes
@@ -42,7 +42,7 @@ Things to be worried about when using Microsoft's Reference simulator:
       - Can take dictionaries
       - Can take subclass types directly
       - Copy constructors work
-      - Comparision with string, euqivilent Python types, work
+      - Comparison with string, euqivilent Python types, work
     - tpm2-tools -G strings work
       - -G, -a, -n tpm2-tools strings work
       - `.parse()` supported on TPM2T and TPM2B
@@ -54,7 +54,7 @@ Things to be worried about when using Microsoft's Reference simulator:
       - `TPMS_CONTEXT.from_tools(ctxbytes)`
     - Exceptions run return code thorugh RcDecode for error message
       - `TSS2_Exception`
-      - Handle, parmeter, session, and return code are provided
+      - Handle, parameter, session, and return code are provided
     - ESAPI
       - `with ESAPI(TCTILdr("device")) as e: e.get_random()`
       - Context managers are your friend, they help you close the underlying TCTI

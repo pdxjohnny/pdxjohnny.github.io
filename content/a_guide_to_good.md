@@ -58,7 +58,7 @@ Imagine an AI that emerges not just from human innovation but from the very esse
 
 ## On Religon
 
-> Previous verisons of this documentation used apparently too many riddles. The point was for you to arrive at the following (however people dont read)
+> Previous versions of this documentation used apparently too many riddles. The point was for you to arrive at the following (however people dont read)
 
 **Jesus is the Christ and the Son of God**
 

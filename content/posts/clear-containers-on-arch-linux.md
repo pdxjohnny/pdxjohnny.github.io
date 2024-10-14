@@ -10,7 +10,7 @@ containers? Well Clear Containers is the solution for you my friend. Here I am
 going to show you how to install and configure the Clear Containers runtime on
 your Arch Linux host.
 
-I have created to packages in AUR to assit you in building the packages you
+I have created to packages in AUR to assist you in building the packages you
 need.
 
 ### qemu-lite package
@@ -61,7 +61,7 @@ sudo pacman -U cc-oci-runtime-2.1.0-1-x86_64.pkg.tar.xz
 
 ### Configuration
 
-Now we need to change how the docker deamon is run so that it knows about the
+Now we need to change how the docker daemon is run so that it knows about the
 runtime he have just installed.
 
 

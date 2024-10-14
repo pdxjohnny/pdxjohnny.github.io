@@ -264,7 +264,7 @@ $ curl -LO 'https://example.com/file.tar.gz'
 ```
 
 > Sometimes one is installed on your system and the other isn't. Try the other
-> one if you're seeing something allong the lines of "Command not found"
+> one if you're seeing something along the lines of "Command not found"
 
 ### Extract zip and tar files?
 

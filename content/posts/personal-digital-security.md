@@ -59,7 +59,7 @@ These are two high level concepts we'll be following.
 - If you can afford it. Buy the latest versions of whatever devices you use.
 
   - This is particularly important if you are concerned your device might
-    be physically acessable by someone you don't trust.
+    be physically accessible by someone you don't trust.
 
 ### Encrypt
 
@@ -67,7 +67,7 @@ These are two high level concepts we'll be following.
 
   - You should always choose ways of communicating that are encrypted. You do
     not know what information, no matter how inconsequentiall it seems to you,
-    might be of use to comprimise the security of seemingly unrelated areas.
+    might be of use to compromise the security of seemingly unrelated areas.
 
   - Communicating using encryption means that there has been some control placed
     on who can see the contents of your communication. The level of control over
@@ -152,7 +152,7 @@ before interacting with them.
 
 ## Governments - Three Letter Agencies
 
-Using open source software is generally a good idea here. With Open Source, even if you dont know how to program, someone who does has looked at the code and you'd probably be able to find out through minimal searching if anyone has found any reason not to trust the open source project you're considering using. With closed source stuff, we usually only find out if it's doing something nefarious if a security researcher got bored in their free time and tried to hack a non-open source peice of software, which happens less often.
+Using open source software is generally a good idea here. With Open Source, even if you dont know how to program, someone who does has looked at the code and you'd probably be able to find out through minimal searching if anyone has found any reason not to trust the open source project you're considering using. With closed source stuff, we usually only find out if it's doing something nefarious if a security researcher got bored in their free time and tried to hack a non-open source piece of software, which happens less often.
 
 Related to the choice of using open source applications: https://www.vice.com/amp/en/article/akgkwj/operation-trojan-shield-anom-fbi-secret-phone-network
 
@@ -182,7 +182,7 @@ MUST update them.
     within those products also have versions. When you buy the latest version of
     a device, you're doing an update of your hardware. Hardware vulnerabilities
     usually a concern when someone might have physical access to your device.
-    Typical examples of this include airport securty, police, theives, abusive
+    Typical examples of this include airport security, police, thieves, abusive
     partners, etc.
 
 ### Encrypt
@@ -191,7 +191,7 @@ MUST update them.
 
   - You should always choose ways of communicating that are encrypted. You do
     not know what information, no matter how inconsequentiall it seems to you,
-    might be of use to comprimise the security of seemingly unrelated areas.
+    might be of use to compromise the security of seemingly unrelated areas.
 
   - Communicating using encryption means that there has been some control placed
     on who can see the contents of your communication. The level of control over

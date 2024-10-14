@@ -57,7 +57,7 @@ https://libsodium.gitbook.io/doc/public-key_cryptography/sealed_boxes
 
 # 2021-02-17
 
-Regular experssion builder helper
+Regular expression builder helper
 
 https://regex101.com/
 

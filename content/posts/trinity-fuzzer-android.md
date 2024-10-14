@@ -96,8 +96,8 @@ After
 ## Step 5 - Verify
 
 Before we push to the device make sure it has a chance of working. This means
-that it will be 32-bit staticly linked. For the edits we just made to the
-commit refernced at the top of this doc file reports the following.
+that it will be 32-bit statically linked. For the edits we just made to the
+commit referenced at the top of this doc file reports the following.
 
 ```
 file trinity
