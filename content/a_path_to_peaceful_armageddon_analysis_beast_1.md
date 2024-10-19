@@ -920,7 +920,7 @@ index 0000000..5cc15e3
 
 ---
 
-Later updates: Turns out the onyx chain I found frist was more of a message about money being a root of evil. J.P. Morgan is sus for real with that private chain, why private my dudes? Money laundering on a giant scale much?
+Later updates: Turns out the onyx chain I found first was more of a message about money being a root of evil. J.P. Morgan is sus for real with that private chain, why private my dudes? Money laundering on a giant scale much?
 
 Also, think we figured out why he was talking about self-sovereignty (this is protected by the first and forth amendment you fucks it's just public domain (now) regurgitation from chatgpt, nowhere do I say that I'm a sovereign citizen, I'm a US citizen, this is just a commentary from a bot on something a guy on a bridge told me, journalism or something, fuck you government we love you! america is what we make it, we just want to incrementally make it better)
 
