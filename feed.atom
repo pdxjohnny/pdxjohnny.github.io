@@ -9,7 +9,7 @@
   </author>
   <icon>https://pdxjohnny.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://pdxjohnny.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2024-10-20T03:48:43Z</updated>
+  <updated>2024-10-20T04:00:32Z</updated>
   <link rel="self" type="application/atom+xml" href="https://pdxjohnny.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://pdxjohnny.github.io/" hreflang="en-us"/>
   <entry>
@@ -21,231 +21,18 @@
     <id>https://pdxjohnny.github.io/theres_something_rotten_with_the_state_of_eden/</id>
     <updated>2024-10-19T19:00:00Z</updated>
     <published>2024-10-19T19:00:00Z</published>
-    <content type="html"><![CDATA[<h2 id="table-of-contents">Table of Contents</h2>
-<ol>
-<li><a href="#theres-something-rotten-with-the-state-of-eden">There's Something Rotten with the State of Eden</a></li>
-<li><a href="#the-scientific-perspective-understanding-pole-shifts-and-their-impacts">The Scientific Perspective: Understanding Pole Shifts and Their Impacts</a>
+    <content type="html"><![CDATA[<p><img src="https://github.com/user-attachments/assets/7d86e8dc-641e-4d80-af43-8118e9bc444c" alt="stay-woke"></p>
 <ul>
-<li><a href="#what-are-pole-shifts">What Are Pole Shifts?</a></li>
-<li><a href="#potential-impacts-of-pole-shifts">Potential Impacts of Pole Shifts</a>
-<ul>
-<li><a href="#navigation-systems">Navigation Systems</a></li>
-<li><a href="#satellite-and-communication-systems">Satellite and Communication Systems</a></li>
-<li><a href="#radiation-exposure">Radiation Exposure</a></li>
-</ul>
-</li>
-<li><a href="#the-importance-of-preparation">The Importance of Preparation</a></li>
-</ul>
-</li>
-<li><a href="#the-spiritual-perspective-overcoming-division-through-unity">The Spiritual Perspective: Overcoming Division Through Unity</a>
-<ul>
-<li><a href="#embracing-shared-humanity">Embracing Shared Humanity</a></li>
-<li><a href="#the-role-of-compassion-and-love">The Role of Compassion and Love</a></li>
-<li><a href="#overcoming-fear-and-misinformation">Overcoming Fear and Misinformation</a></li>
-</ul>
-</li>
-<li><a href="#building-decentralized-resilience">Building Decentralized Resilience</a>
-<ul>
-<li><a href="#benefits-of-decentralization">Benefits of Decentralization</a>
-<ul>
-<li><a href="#enhanced-adaptability">Enhanced Adaptability</a></li>
-<li><a href="#reduced-vulnerabilities">Reduced Vulnerabilities</a></li>
-<li><a href="#empowered-communities">Empowered Communities</a></li>
-</ul>
-</li>
-<li><a href="#strategies-for-implementation">Strategies for Implementation</a>
-<ul>
-<li><a href="#localized-energy-solutions">Localized Energy Solutions</a></li>
-<li><a href="#community-centric-agriculture">Community-Centric Agriculture</a></li>
-<li><a href="#decentralized-communication-networks">Decentralized Communication Networks</a></li>
-<li><a href="#education-and-knowledge-sharing">Education and Knowledge Sharing</a></li>
-<li><a href="#collaborative-governance">Collaborative Governance</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#unity-and-resilience-for-a-sustainable-future">Unity and Resilience for a Sustainable Future</a>
-<ul>
-<li><a href="#action-steps-forward">Action Steps Forward</a>
-<ul>
-<li><a href="#foster-unity">Foster Unity</a></li>
-<li><a href="#enhance-resilience">Enhance Resilience</a></li>
-<li><a href="#promote-education">Promote Education</a></li>
-<li><a href="#engage-collaboratively">Engage Collaboratively</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#building-infrastructure-to-withstand-geomagnetic-threats">Building Infrastructure to Withstand Geomagnetic Threats</a>
-<ul>
-<li><a href="#understanding-the-challenges">Understanding the Challenges</a>
-<ul>
-<li><a href="#power-grids">Power Grids</a></li>
-<li><a href="#communication-systems">Communication Systems</a></li>
-<li><a href="#transportation-networks">Transportation Networks</a></li>
-<li><a href="#critical-services">Critical Services</a></li>
-</ul>
-</li>
-<li><a href="#strategies-for-infrastructure-resilience">Strategies for Infrastructure Resilience</a>
-<ul>
-<li><a href="#reinforcing-power-systems">Reinforcing Power Systems</a>
-<ul>
-<li><a href="#grid-hardening">Grid Hardening</a></li>
-<li><a href="#real-time-monitoring">Real-Time Monitoring</a></li>
-<li><a href="#distributed-energy-resources">Distributed Energy Resources</a></li>
-</ul>
-</li>
-<li><a href="#securing-communication-networks">Securing Communication Networks</a>
-<ul>
-<li><a href="#satellite-protection">Satellite Protection</a></li>
-<li><a href="#alternative-communication-methods">Alternative Communication Methods</a></li>
-<li><a href="#backup-systems">Backup Systems</a></li>
-</ul>
-</li>
-<li><a href="#enhancing-transportation-infrastructure">Enhancing Transportation Infrastructure</a>
-<ul>
-<li><a href="#navigation-system-updates">Navigation System Updates</a></li>
-<li><a href="#infrastructure-design">Infrastructure Design</a></li>
-<li><a href="#training-and-protocols">Training and Protocols</a></li>
-</ul>
-</li>
-<li><a href="#protecting-critical-facilities">Protecting Critical Facilities</a>
-<ul>
-<li><a href="#emergency-power-supplies">Emergency Power Supplies</a></li>
-<li><a href="#electromagnetic-shielding">Electromagnetic Shielding</a></li>
-<li><a href="#automated-safeguards">Automated Safeguards</a></li>
-</ul>
-</li>
-<li><a href="#advancing-research-and-technology">Advancing Research and Technology</a>
-<ul>
-<li><a href="#space-weather-forecasting">Space Weather Forecasting</a></li>
-<li><a href="#material-innovation">Material Innovation</a></li>
-<li><a href="#collaboration-with-experts">Collaboration with Experts</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#community-level-initiatives">Community-Level Initiatives</a>
-<ul>
-<li><a href="#localized-energy-solutions-1">Localized Energy Solutions</a></li>
-<li><a href="#emergency-preparedness-education">Emergency Preparedness Education</a></li>
-<li><a href="#building-strong-social-networks">Building Strong Social Networks</a></li>
-</ul>
-</li>
-<li><a href="#policy-and-governance">Policy and Governance</a>
-<ul>
-<li><a href="#national-preparedness-plans">National Preparedness Plans</a>
-<ul>
-<li><a href="#infrastructure-assessments">Infrastructure Assessments</a></li>
-<li><a href="#regulatory-standards">Regulatory Standards</a></li>
-</ul>
-</li>
-<li><a href="#international-cooperation">International Cooperation</a>
-<ul>
-<li><a href="#data-sharing">Data Sharing</a></li>
-<li><a href="#joint-exercises">Joint Exercises</a></li>
-</ul>
-</li>
-<li><a href="#funding-and-incentives">Funding and Incentives</a>
-<ul>
-<li><a href="#investment-in-resilience">Investment in Resilience</a></li>
-<li><a href="#incentivizing-innovation">Incentivizing Innovation</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#technological-innovations">Technological Innovations</a>
-<ul>
-<li><a href="#advanced-grid-technologies">Advanced Grid Technologies</a>
-<ul>
-<li><a href="#smart-grids">Smart Grids</a></li>
-<li><a href="#energy-storage-systems">Energy Storage Systems</a></li>
-</ul>
-</li>
-<li><a href="#robust-communication-platforms">Robust Communication Platforms</a>
-<ul>
-<li><a href="#quantum-communication">Quantum Communication</a></li>
-<li><a href="#low-earth-orbit-satellites">Low-Earth Orbit Satellites</a></li>
-</ul>
-</li>
-<li><a href="#protective-technologies">Protective Technologies</a>
-<ul>
-<li><a href="#faraday-cages">Faraday Cages</a></li>
-<li><a href="#surge-protection-devices">Surge Protection Devices</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#the-imperative-of-action">The Imperative of Action</a></li>
-</ul>
-</li>
-<li><a href="#bridging-divides-through-self-organized-morality-a-path-to-collective-alignment">Bridging Divides Through Self-Organized Morality: A Path to Collective Alignment</a>
-<ul>
-<li><a href="#the-power-of-self-reflection-on-moral-values">The Power of Self-Reflection on Moral Values</a></li>
-<li><a href="#collective-alignment-through-cooperative-principles">Collective Alignment Through Cooperative Principles</a></li>
-<li><a href="#bridging-the-symbolic-to-subsymbolic-gap">Bridging the Symbolic to Subsymbolic Gap</a></li>
-<li><a href="#self-organization">Self-Organization</a></li>
-</ul>
-</li>
-<li><a href="#harnessing-supply-chain-transparency-and-ai-for-global-resilience">Harnessing Supply Chain Transparency and AI for Global Resilience</a>
-<ul>
-<li><a href="#the-imperative-for-transparency-1">The Imperative for Transparency</a>
-<ul>
-<li><a href="#understanding-dependencies-1">Understanding Dependencies</a></li>
-<li><a href="#risk-assessment-and-mitigation-1">Risk Assessment and Mitigation</a></li>
-<li><a href="#regulatory-compliance-and-ethical-standards-1">Regulatory Compliance and Ethical Standards</a></li>
-</ul>
-</li>
-<li><a href="#integrating-advanced-software-supply-chain-frameworks-1">Integrating Advanced Software Supply Chain Frameworks</a>
-<ul>
-<li><a href="#distributed-ledger-technologies-dlt">Distributed Ledger Technologies (DLT)</a></li>
-<li><a href="#internet-of-things-iot-integration">Internet of Things (IoT) Integration</a></li>
-<li><a href="#data-standardization-protocols">Data Standardization Protocols</a></li>
-</ul>
-</li>
-<li><a href="#federation-as-a-general-eventing-mechanism-1">Federation as a General Eventing Mechanism</a>
-<ul>
-<li><a href="#decentralized-collaboration">Decentralized Collaboration</a></li>
-<li><a href="#scalability-and-flexibility">Scalability and Flexibility</a></li>
-<li><a href="#enhanced-security">Enhanced Security</a></li>
-</ul>
-</li>
-<li><a href="#the-role-of-artificial-intelligence-and-policy-engines-1">The Role of Artificial Intelligence and Policy Engines</a>
-<ul>
-<li><a href="#predictive-analytics">Predictive Analytics</a></li>
-<li><a href="#automated-decision-making">Automated Decision-Making</a></li>
-<li><a href="#adaptive-learning">Adaptive Learning</a></li>
-</ul>
-</li>
-<li><a href="#supply-chain-security-and-the-cia-triad">Supply Chain Security and the CIA Triad</a>
-<ul>
-<li><a href="#confidentiality">Confidentiality</a></li>
-<li><a href="#integrity">Integrity</a></li>
-<li><a href="#availability">Availability</a></li>
-</ul>
-</li>
-<li><a href="#preparing-for-potential-mass-extinction-events">Preparing for Potential Mass Extinction Events</a>
-<ul>
-<li><a href="#resource-allocation">Resource Allocation</a></li>
-<li><a href="#redundancy-and-diversification">Redundancy and Diversification</a></li>
-<li><a href="#rapid-response-mechanisms">Rapid Response Mechanisms</a></li>
-</ul>
-</li>
-<li><a href="#decentralization-and-resilience-1">Decentralization and Resilience</a>
-<ul>
-<li><a href="#local-production-and-self-sufficiency">Local Production and Self-Sufficiency</a></li>
-<li><a href="#community-engagement">Community Engagement</a></li>
-<li><a href="#flexible-infrastructure">Flexible Infrastructure</a></li>
-</ul>
-</li>
-<li><a href="#the-potential-for-a-new-golden-age">The Potential for a New Golden Age</a></li>
-<li><a href="#accelerating-into-the-future">Accelerating into the Future</a></li>
-</ul>
-</li>
+<li><a href="#the-scientific-perspective-understanding-pole-shifts-and-their-impacts">The Scientific Perspective: Understanding Pole Shifts and Their Impacts</a></li>
+<li><a href="#the-spiritual-perspective-overcoming-division-through-unity">The Spiritual Perspective: Overcoming Division Through Unity</a></li>
+<li><a href="#building-decentralized-resilience">Building Decentralized Resilience</a></li>
+<li><a href="#unity-and-resilience-for-a-sustainable-future">Unity and Resilience for a Sustainable Future</a></li>
+<li><a href="#building-infrastructure-to-withstand-geomagnetic-threats">Building Infrastructure to Withstand Geomagnetic Threats</a></li>
+<li><a href="#bridging-divides-through-self-organized-morality-a-path-to-collective-alignment">Bridging Divides Through Self-Organized Morality: A Path to Collective Alignment</a></li>
+<li><a href="#harnessing-supply-chain-transparency-and-ai-for-global-resilience">Harnessing Supply Chain Transparency and AI for Global Resilience</a></li>
 <li><a href="#conclusion">Conclusion</a></li>
 <li><a href="#references">References</a></li>
-</ol>
-<p><img src="https://github.com/user-attachments/assets/7d86e8dc-641e-4d80-af43-8118e9bc444c" alt="stay-woke"></p>
+</ul>
 <p>In our rapidly changing world, the forces of deception and division are increasingly active. Through various channels—politics, media, and even certain aspects of organized religion—these forces create distractions that hinder humanity's ability to unite. This disunity prevents us from effectively addressing significant environmental and societal challenges. The ultimate aim of these divisive strategies appears to be the obscuring of truth, isolating individuals, and perpetuating passivity and disempowerment among the masses.</p>
 <p>At the core of this division lies an age-old conflict between the forces of love and unity, epitomized by teachings that encourage compassion and cooperation, and the forces of fear and deception. As we confront the complex issues of our time—including natural phenomena like pole shifts and their wide-ranging impacts—the influence of deceptive forces seems to grow stronger. Yet, these forces can be overcome if we collectively embrace messages of unity and focus on building resilience.</p>
 <h3 id="the-scientific-perspective-understanding-pole-shifts-and-their-impacts">The Scientific Perspective: Understanding Pole Shifts and Their Impacts</h3>
@@ -490,6 +277,11 @@
 <li><a href="https://www.youtube.com/watch?v=qx1KmbiJq9A">https://www.youtube.com/watch?v=qx1KmbiJq9A</a></li>
 <li><a href="https://theponzipapers.substack.com/p/i-have-set-myself-on-fire-outside">https://theponzipapers.substack.com/p/i-have-set-myself-on-fire-outside</a></li>
 <li><a href="https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodd/524001p.PDF?ver=UpTwJ66AyyBgvy7wFyTGbA%3d%3d">https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodd/524001p.PDF?ver=UpTwJ66AyyBgvy7wFyTGbA%3d%3d</a></li>
+<li>Ref: Sifting Truths (aka <code>greek_stuff.md</code>), <a href="1f3ea7fa44dfe6cdb940bc4301b4ba2578a3ad0d">Dec 20, 2022</a>
+<ul>
+<li>Revalations can be good, so long as we use them to prepare and unite instead of previous proliferated revalations from organized religions who's aim is to save only a chosen few</li>
+</ul>
+</li>
 </ul>]]></content>
   </entry>
   <entry>
